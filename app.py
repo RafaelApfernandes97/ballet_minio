@@ -73,6 +73,7 @@ def list_items(prefix=''):
         folders.append({
             'name': folder_name,
             'cover_image_url': cover_image_url
+            
         })
     
     files = []

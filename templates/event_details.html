@@ -89,6 +89,7 @@
             <div class="content" id="elementoAleatorio">
                 <div>
                     <h3>{{ event_folder }}</h3>
+                   
                     <a href="javascript:history.back()">
                     </a>
                 </div>
@@ -132,6 +133,7 @@
             <div class="item container_item" data-id="{{ file_info['key'] }}" data-name="{{ file_info['name'] }} "
                 data-image-path="{{ file_info['url'] }}"
                 onclick="toggleSelection(this, '{{ file_info['key'] }}', '{{ file_info['name'] }}')">
+                <h6 class="name_img">{{ file_info['name'] }}</h6>
                 {% if file_info['is_image'] %}
                 <img class="image img_container" src="{{ file_info['url'] }}" alt="{{ file_info['name'] }}"
                     style="max-width: 100%;">

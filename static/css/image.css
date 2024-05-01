@@ -71,3 +71,11 @@
     border-radius: 50%; 
     padding: 5px; 
   }
+
+
+  .name_img {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    color: white;
+  }

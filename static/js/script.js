@@ -7,25 +7,33 @@ function normalizeUrl(url) {
 function toggleSelection(element) {
     var imagePath = normalizeUrl(element.getAttribute('data-image-path'));
     var checkmark = element.querySelector('.checkmark');
+    var imgContainer = element.querySelector('.img_container'); // Acessa o contêiner da imagem
 
     if (localStorage.getItem(imagePath) === 'selected') {
         localStorage.removeItem(imagePath);
         checkmark.style.display = 'none';
+        imgContainer.classList.remove('selected'); // Remove a classe selected
     } else {
         localStorage.setItem(imagePath, 'selected');
         checkmark.style.display = 'block';
+        imgContainer.classList.add('selected'); // Adiciona a classe selected
     }
     updateImageCount();
 }
+
 
 window.onload = function () {
     document.querySelectorAll('.container_item').forEach(item => {
         const imagePath = normalizeUrl(item.getAttribute('data-image-path'));
         const checkmark = item.querySelector('.checkmark');
+        const imgContainer = item.querySelector('.img_container'); // Acessa o contêiner da imagem
+        
         if (localStorage.getItem(imagePath) === 'selected') {
             checkmark.style.display = 'block';
+            imgContainer.classList.add('selected'); // Adiciona a classe selected
         } else {
             checkmark.style.display = 'none';
+            imgContainer.classList.remove('selected'); // Remove a classe selected
         }
     });
     updateCheckmarks();  // Atualiza todos os checkmarks após a remoção
