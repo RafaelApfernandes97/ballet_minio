@@ -1,0 +1,244 @@
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  /* .carousel-image {
+        flex: 0 0 auto;
+        width: 33.3333%; /* 100% / 3 images */
+  /* scroll-snap-align: start; */
+  /* box-sizing: border-box; */
+  /* border: 1px solid #ccc; */
+  /* margin: 2px;
+    } */
+  */ button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .remove-image-btn {
+    position: absolute;
+    top: 10px; /* ajuste conforme necessário */
+    right: 10px; /* ajuste conforme necessário */
+    background-color: #ff0000; /* vermelho para o botão de remoção */
+    color: #ffffff; /* texto branco */
+    border: none; /* sem borda */
+    border-radius: 50%; /* botão circular */
+    width: 25px; /* tamanho do botão */
+    height: 25px; /* tamanho do botão */
+    cursor: pointer;
+    z-index: 10; /* garante que o botão fique acima da imagem */
+    display: flex; /* ativa flexbox */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+  }
+  
+  .carousel-image {
+    width: 100%; /* Faz a imagem preencher o contêiner */
+    height: 200px; /* Altura fixa para a imagem */
+    object-fit: contain; /* Garante que a imagem se ajuste sem distorção */
+  }
+  
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 85%; /* Largura fixa para o contêiner da imagem */
+    height: 100%; /* Altura fixa para o contêiner da imagem, ajuste conforme necessário */
+    flex: 0 0 auto; /* Não permite que o item cresça ou encolha */
+  }
+  
+  .carousel-container {
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    height: 90%;
+  }
+  
+  .carousel-container .carousel-image {
+    width: 95%; /* Isso fará com que a imagem preencha o contêiner */
+    height: 100%; /* Adaptar a altura para preencher o contêiner */
+  }
+  .carousel-container .remove-image-btn {
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  .remove-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 0;
+    z-index: 1;
+  }
+  
+  .carousel-container .slick-slide {
+    height: 220px; /* Ajuste de acordo com o tamanho desejado + padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botton_envio {
+    margin-top: 4rem;
+    display: flex;
+  }
+  
+  .valor_form,
+  .button-envio {
+    flex: 1;
+  }
+  
+  .valor_form {
+    margin-right: 10px;
+  }
+  
+  .valor_form .button-envio {
+    white-space: nowrap;
+   
+  }
+  
+  .input_valorForm {
+    font-weight: 700;
+    border: none;
+    color: #ff8d07;
+  }
+  
+  .valor_form_label {
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    color: #9c9c9c;
+  }
+  
+  .button--envio {
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #ff8d07;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .span_envio {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    color: #ff8d07;
+    width: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .form-field {
+    position: relative; /* Posicionamento relativo para o contêiner da label e input */
+    margin-top: 20px; /* Espaço suficiente para a label aparecer acima do input */
+  }
+  
+  label {
+    background-color: #fff; /* A cor de fundo da label deve ser igual à do contêiner para parecer que está cortando a borda */
+    position: absolute; /* Posicionamento absoluto para poder posicionar exatamente onde queremos */
+    top: -10px; /* Levanta a label para cima, metade da altura da label */
+    left: 10px; /* Espaçamento da esquerda da borda do input */
+    padding: 0 5px; /* Um pouco de espaço horizontal para não tocar diretamente a borda do input */
+    color: #ff8d07; /* A cor do texto da label */
+  }
+  
+  input {
+    border: 1px solid #ccc; /* A borda do input */
+    padding: 10px; /* Espaçamento interno para o texto não tocar a borda */
+    width: calc(100% - 22px); /* Largura menos a borda e o padding */
+  }
+
+
+  .cart-button {
+    position: fixed;
+    bottom: 20px;
+    right: 5%;
+    z-index: 1000;
+    background-color: #ffe000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(/static/img/cart2.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .cart-button span {
+    position: absolute;
+    bottom: 37px;
+    right: 45px;
+    padding: 2px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    border-radius: 100%;
+    text-align: center;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .checkmark {
+    background-image: url(/static/img/check.png);
+    background-size: 80%;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background-color: #FFE000;
+    border-radius: 0% 10% 0% 100%;
+    padding: 5px;
+  }
+  
+  .modal-body img {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .span_remove {
+    color: white;
+    font-weight: 700;
+  }

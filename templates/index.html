@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastas no Google Drive</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+
+        .folder-container {
+            margin: auto;
+            max-width: 600px;
+        }
+
+        .folder-link {
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <!-- Mais Chat - Webchat -->
+    <chat-widget id="66316064b612327b234e22bb" ws="wss://apimaischat.maischat.io"
+        api="https://apimaischat.maischat.io/v2">
+    </chat-widget>
+    <script type="text/javascript" src="https://webchat.mais.chat/chat-widget.js">
+    </script>
+    <!-- /Mais Chat - Webchat -->
+</head>
+
+<body>
+    <div class="container folder-container">
+        <h2>Pastas no Google Drive</h2>
+        <div id="foldersList">
+            <!-- Os links das pastas serão inseridos aqui -->
+
+            {% for folder in folders %}
+            <div class="folder-link">
+                <a class="btn btn-primary" href="{{ request.script_root }}/{{ current_path }}{{ folder }}">{{ folder
+                    }}</a>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
