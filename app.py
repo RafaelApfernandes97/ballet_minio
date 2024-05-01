@@ -21,6 +21,38 @@ s3 = boto3.client('s3',
                   region_name='us-east-1')
 
 bucket_name = 'balletphotos'
+cache_file = 'cover_images_cache.json'
+
+def load_cache():
+    try:
+        with open(cache_file, 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return {}
+
+def save_cache(cache):
+    with open(cache_file, 'w') as file:
+        json.dump(cache, file)
+
+def get_cover_image(folder_prefix):
+    cache = load_cache()
+    if folder_prefix in cache:
+        return cache[folder_prefix]
+    
+    # Lista todos os objetos na pasta até encontrar uma imagem
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
+    for obj in response.get('Contents', []):
+        if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
+            url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
+            cache[folder_prefix] = url
+            save_cache(cache)
+            return url
+
+    # Retorna uma imagem padrão se nenhuma imagem for encontrada
+    default_image = '/static/img/sem_capa.jpg'
+    cache[folder_prefix] = default_image
+    save_cache(cache)
+    return default_image
 
 # Função auxiliar para extrair o número da pasta para ordenação
 def extract_number(s):
@@ -30,31 +62,39 @@ def extract_number(s):
 def list_items(prefix=''):
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
     
-    # Processa os prefixos das pastas e extrai apenas o nome da última pasta
-    folders = [os.path.basename(os.path.normpath(folder['Prefix'])) for folder in response.get('CommonPrefixes', [])]
+    folders = []
+    for folder in response.get('CommonPrefixes', []):
+        folder_path = folder['Prefix']
+        folder_name = os.path.basename(os.path.normpath(folder_path))
+        
+        # Busca ou recupera a imagem de capa do cache
+        cover_image_url = get_cover_image(folder_path)
+        
+        folders.append({
+            'name': folder_name,
+            'cover_image_url': cover_image_url
+        })
     
-    # Ordena as pastas numericamente
-    folders.sort(key=extract_number)
-    
-    # Lista de arquivos
     files = []
-    
-    # Lista os objetos e adiciona à lista de arquivos, incluindo informações adicionais
     for obj in response.get('Contents', []):
         if not obj['Key'].endswith('/'):
-            file_url = s3.generate_presigned_url('get_object',
-                                                 Params={'Bucket': bucket_name, 'Key': obj['Key']},
-                                                 ExpiresIn=3600)
+            file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
             file_info = {
                 'name': os.path.basename(obj['Key']),
                 'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
                 'url': file_url,
-                
             }
             files.append(file_info)
-            print(f"File Listed: {file_info['name']}")
-
+    
     return folders, files
+
+def find_cover_image(folder_prefix):
+    # Lista todos os objetos dentro da pasta até encontrar uma imagem
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
+    for obj in response.get('Contents', []):
+        if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
+            return s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
+    return '/static/img/sem_capa.jpg' 
 
 @app.route('/')
 def root():

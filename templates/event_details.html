@@ -111,21 +111,17 @@
         <div id="subfolders">
             {% for folder in folders %}
             <div class="item folders">
-                <a class="folder_a" href="{{ request.script_root }}/{{ current_path }}{{ folder }}/">
-                    {% if folder.cover_image_id %}
-                    <img data-src="/proxy?id={{ folder.cover_image_id }}" class="lazyload"
-                        onload="showFolderName(this)">
-                    {% else %}
-                    <img src="/static/img/sem_capa.jpg" class="lazyload" onload="showFolderName(this)">
-                    {% endif %}
+                <a class="folder_a" href="{{ request.script_root }}/{{ current_path }}{{ folder.name }}/">
+                    <img src="{{ folder.cover_image_url }}" class="lazyload">
                     <div class="folder_name">
                         <img class="folder_img" src="/static/img/pasta.png" alt="">
-                        <span class="folder-name">{{ folder }}</span>
+                        <span class="folder-name">{{ folder.name }}</span>
                     </div>
                 </a>
             </div>
             {% endfor %}
         </div>
+        
 
 
 
