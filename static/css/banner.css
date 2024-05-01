@@ -6,7 +6,7 @@
 
 .mask {
     width: 200vw;
-    height: 110vw;
+    height: 130vw;
     margin-left: -50vw;
     box-shadow: inset 6px 6px 13px 0px #000;
     border-radius: 50%;
@@ -35,16 +35,17 @@
 .content::before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-size: 81%;
+    background-size: 115%;
     background-position: bottom;
     background-repeat: no-repeat;
     opacity: 0.5;
     z-index: 0;
     background-image: url(/static/img/banner/banner1.jpg);
+    /* Variável CSS para a imagem de fundo */
 }
 
 
