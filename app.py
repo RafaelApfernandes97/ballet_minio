@@ -4,7 +4,7 @@ from botocore.client import Config
 import json
 import os
 import re
-import humanize
+import time
 
 app = Flask(__name__)
 
@@ -22,80 +22,6 @@ s3 = boto3.client('s3',
 
 bucket_name = 'balletphotos'
 cache_file = 'cover_images_cache.json'
-
-def load_cache():
-    try:
-        with open(cache_file, 'r') as file:
-            return json.load(file)
-    except FileNotFoundError:
-        return {}
-
-def save_cache(cache):
-    with open(cache_file, 'w') as file:
-        json.dump(cache, file)
-
-def get_cover_image(folder_prefix):
-    cache = load_cache()
-    if folder_prefix in cache:
-        return cache[folder_prefix]
-    
-    # Lista todos os objetos na pasta até encontrar uma imagem
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
-    for obj in response.get('Contents', []):
-        if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
-            url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
-            cache[folder_prefix] = url
-            save_cache(cache)
-            return url
-
-    # Retorna uma imagem padrão se nenhuma imagem for encontrada
-    default_image = '/static/img/sem_capa.jpg'
-    cache[folder_prefix] = default_image
-    save_cache(cache)
-    return default_image
-
-# Função auxiliar para extrair o número da pasta para ordenação
-def extract_number(s):
-    match = re.search(r'\d+$', s)
-    return int(match.group()) if match else 0
-
-def list_items(prefix=''):
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
-    
-    folders = []
-    for folder in response.get('CommonPrefixes', []):
-        folder_path = folder['Prefix']
-        folder_name = os.path.basename(os.path.normpath(folder_path))
-        
-        # Busca ou recupera a imagem de capa do cache
-        cover_image_url = get_cover_image(folder_path)
-        
-        folders.append({
-            'name': folder_name,
-            'cover_image_url': cover_image_url
-            
-        })
-    
-    files = []
-    for obj in response.get('Contents', []):
-        if not obj['Key'].endswith('/'):
-            file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
-            file_info = {
-                'name': os.path.basename(obj['Key']),
-                'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
-                'url': file_url,
-            }
-            files.append(file_info)
-    
-    return folders, files
-
-def find_cover_image(folder_prefix):
-    # Lista todos os objetos dentro da pasta até encontrar uma imagem
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
-    for obj in response.get('Contents', []):
-        if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
-            return s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
-    return '/static/img/sem_capa.jpg' 
 
 @app.route('/')
 def root():
@@ -117,6 +43,102 @@ def index(path):
 
     # Caso contrário, continue renderizando 'index.html'
     return render_template('index.html', folders=folders, files=files, current_path=path)
+
+
+def load_cache():
+    try:
+        with open(cache_file, 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return {}
+
+def save_cache(cache):
+    with open(cache_file, 'w') as file:
+        json.dump(cache, file)
+
+def is_url_expired(timestamp, max_age=604800):
+    return (time.time() - timestamp) > max_age
+
+def regenerate_url_and_update_cache(folder_prefix, key):
+    """Gera uma nova URL pré-assinada e atualiza o cache."""
+    url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': key}, ExpiresIn=604800)
+    cache = load_cache()
+    cache[folder_prefix] = {'url': url, 'timestamp': time.time()}
+    save_cache(cache)
+    return url
+
+def get_cover_image(folder_prefix):
+    cache = load_cache()
+    if folder_prefix in cache:
+        cached_data = cache[folder_prefix]
+        if 'url' in cached_data and 'timestamp' in cached_data and not is_url_expired(cached_data['timestamp']):
+            return cached_data['url']
+        else:
+            # O código aqui deve lidar com a situação de dados incompletos ou expirados
+            # Isso pode envolver regenerar a URL e atualizar o cache
+            # Encontra a chave do objeto para regenerar a URL
+            response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
+            for obj in response.get('Contents', []):
+                if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
+                    return regenerate_url_and_update_cache(folder_prefix, obj['Key'])
+
+    # Se a URL não estiver no cache ou precisar ser regenerada mas nenhum arquivo corresponder, gera nova
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
+    for obj in response.get('Contents', []):
+        if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
+            return regenerate_url_and_update_cache(folder_prefix, obj['Key'])
+
+    # Retorna uma imagem padrão se nenhuma imagem for encontrada
+    default_image = '/static/img/sem_capa.jpg'
+    cache[folder_prefix] = {'url': default_image, 'timestamp': time.time()}
+    save_cache(cache)
+    return default_image
+
+
+
+# Função auxiliar para extrair o número da pasta para ordenação
+def extract_number(s):
+    # Busca por números dentro de parênteses e retorna o último encontrado
+    matches = re.findall(r'\((\d+)\)', s)
+    return int(matches[-1]) if matches else 0
+
+def list_items(prefix=''):
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
+    
+    folders = []
+    for folder in response.get('CommonPrefixes', []):
+        folder_path = folder['Prefix']
+        folder_name = os.path.basename(os.path.normpath(folder_path))
+        cover_image_url = get_cover_image(folder_path)
+        
+        folders.append({
+            'name': folder_name,
+            'cover_image_url': cover_image_url
+        })
+    
+    # Ordena as pastas baseado no número extraído do nome
+    folders.sort(key=lambda x: extract_number(x['name']))
+
+    files = []
+    for obj in response.get('Contents', []):
+        if not obj['Key'].endswith('/'):
+            file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
+            file_info = {
+                'name': os.path.basename(obj['Key']),
+                'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
+                'url': file_url,
+            }
+            files.append(file_info)
+    
+    # Ordena os arquivos de imagem baseado no número extraído do nome
+    files.sort(key=lambda x: extract_number(x['name']) if x['is_image'] else float('inf'))
+
+    return folders, files
+
+
+
+
+
 
 
 

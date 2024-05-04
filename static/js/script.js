@@ -245,7 +245,7 @@ function sendToWhatsApp() {
     }
 
     let
-        message = `*Resumod o Pedido* \n\n`;
+        message = `*Resumo do Pedido* \n\n`;
     message += `*Evento*: ${event_folder_name}\n\n`;
     message += `*Nome*: ${name}\n\n*Telefone*: ${phone}\n\n*Email*: ${email}\n\n`;
     message += `*Imagens Selecionadas:*\n ${imageNames.join(',\n ')}\n\n`;
