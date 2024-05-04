@@ -98,9 +98,10 @@ def get_cover_image(folder_prefix):
 
 # Função auxiliar para extrair o número da pasta para ordenação
 def extract_number(s):
-    # Busca por números dentro de parênteses e retorna o último encontrado
-    matches = re.findall(r'\((\d+)\)', s)
-    return int(matches[-1]) if matches else 0
+    # Encontra todos os grupos de dígitos no nome
+    matches = re.findall(r'\d+', s)
+    # Retorna o maior número encontrado no nome para usar na ordenação
+    return max(map(int, matches)) if matches else 0
 
 def list_items(prefix=''):
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
