@@ -164,9 +164,40 @@ def remove_selection():
     return jsonify({"status": "removed", "imageName": data['imageName']})
 
 
+event_value_config = {}
 
+@app.route('/config-event', methods=['GET', 'POST'])
+def config_event():
+    if request.method == 'POST':
+        event_name = request.form.get('event_name')
+        value_type = request.form.get('value_type')
+        event_value_config[event_name] = value_type
+        with open('event_value_config.json', 'w') as f:
+            json.dump(event_value_config, f)
+        return redirect(url_for('config_event'))
+    
+    events = get_event_list()
+    return render_template('config_event.html', events=events, config=event_value_config)
 
+def get_event_list():
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix='eventos/', Delimiter='/')
+    events = [os.path.basename(os.path.normpath(event['Prefix'])) for event in response.get('CommonPrefixes', [])]
+    return events
 
+def load_event_value_config():
+    global event_value_config
+    try:
+        with open('event_value_config.json', 'r') as f:
+            event_value_config = json.load(f)
+    except FileNotFoundError:
+        event_value_config = {}
 
+@app.route('/load-config')
+def load_config():
+    global event_value_config
+    return jsonify(event_value_config)
+
+# Certifique-se de chamar load_event_value_config ao iniciar a aplicação
 if __name__ == '__main__':
+    load_event_value_config()
     app.run(debug=True)

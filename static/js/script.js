@@ -19,8 +19,8 @@ function toggleSelection(element) {
         imgContainer.classList.add('selected'); // Adiciona a classe selected
     }
     updateImageCount();
+    updateTotalValue();  // Atualiza o valor total quando a seleção muda
 }
-
 
 window.onload = function () {
     document.querySelectorAll('.container_item').forEach(item => {
@@ -38,6 +38,7 @@ window.onload = function () {
     });
     updateCheckmarks();  // Atualiza todos os checkmarks após a remoção
     updateImageCount();
+    updateTotalValue();  // Atualiza o valor total ao carregar a página
 };
 
 function updateCheckmarks() {
@@ -51,9 +52,6 @@ function updateCheckmarks() {
         }
     });
 }
-
-
-
 
 function saveSelection(name) {
     fetch('/save-selection', {
@@ -81,11 +79,6 @@ function removeSelection(name) {
         .catch((error) => console.error('Error:', error));
 }
 
-
-
-// -----------------------------------------------------------------------------------------
-
-
 function openCartModal() {
     // Usa o método do Bootstrap para mostrar o modal
     $('#cartModal').modal('show');
@@ -110,8 +103,8 @@ function updateCartDisplay() {
             });
         }
     }
-    updateTotalValue();
     updateImageCount();
+    updateTotalValue();
 
     if (selectedImages.length > 0) {
         const carouselContainer = document.createElement('div');
@@ -126,15 +119,9 @@ function updateCartDisplay() {
             imgElement.alt = imageObj.name;
             imgElement.className = 'carousel-image';
 
-            // // Cria um parágrafo para exibir o nome da imagem
-            // const nameParagraph = document.createElement('p');
-            // nameParagraph.textContent = imageObj.name;
-            // nameParagraph.className = 'image-name';
-
             const removeBtn = document.createElement('button');
             removeBtn.className = 'remove-image-btn';
 
-            // Cria um elemento <span> para conter o X
             const spanElement = document.createElement('span');
             spanElement.textContent = 'X';
             spanElement.className = 'span_remove';
@@ -146,7 +133,6 @@ function updateCartDisplay() {
             removeBtn.appendChild(spanElement);
 
             imgContainer.appendChild(imgElement);
-            // imgContainer.appendChild(nameParagraph);
             imgContainer.appendChild(removeBtn);
 
             carouselContainer.appendChild(imgContainer);
@@ -164,76 +150,81 @@ function removeFromCart(imagePath, imgContainer) {
     updateImageCount();
 }
 
+let eventValueConfig = {};
 
-// -------------------------------------------------------------------------------------------------
-
-
-function updateTotalValue() {
-    let count = 0;
-    // Conta quantas imagens estão selecionadas
-    for (let i = 0; i < localStorage.length; i++) {
-        const imagePath = localStorage.key(i);
-        if (localStorage.getItem(imagePath) === 'selected') {
-            count++;
-        }
-    }
-
-    // Determina o preço por imagem com base na quantidade selecionada
-    let pricePerImage = 20.00; // Preço padrão
-    if (count >= 10 && count < 20) {
-        pricePerImage = 17.50;
-    } else if (count >= 20) {
-        pricePerImage = 15.00;
-    }
-
-    // Calcula o valor total
-    let totalValue = count * pricePerImage;
-
-    // Atualiza o campo de valor total no HTML
-    document.getElementById('totalValue').value = `R$ ${totalValue.toFixed(2)}`;
-}
-
-
-function updateImageCount() {
-    let count = 0;
-    // Itera sobre todos os itens salvos no LocalStorage para contar quantos estão selecionados
-    for (let i = 0; i < localStorage.length; i++) {
-        const imagePath = localStorage.key(i);
-        if (localStorage.getItem(imagePath) === 'selected') {
-            count++;
-        }
-    }
-
-    // Atualiza todos os contadores no site
-    const cartCounters = document.querySelectorAll('.cart-counter');
-    cartCounters.forEach(counter => {
-        counter.textContent = count;
+fetch('/load-config')
+    .then(response => response.json())
+    .then(data => {
+        eventValueConfig = data;
+        console.log('Configuração de valor do evento carregada:', eventValueConfig);
     });
-}
 
-
-// ---------------------------------------------------------------------------------------------------
 function getCurrentSubfolder() {
     const path = window.location.pathname;
     const segments = path.split('/').filter(segment => segment.trim() !== '');
-    // Considerando que o nome do evento é sempre o primeiro segmento após "eventos",
-    // e a subpasta de interesse é o segundo segmento após "eventos".
     if (segments.length > 1 && segments[0] === "eventos") {
         return decodeURIComponent(segments[1]);  // Retorna o nome da subpasta decodificado
     }
     return '';  // Retorna vazio se não for encontrado
 }
 
+function updateTotalValue() {
+    let count = 0;
+    for (let i = 0; i < localStorage.length; i++) {
+        const imagePath = localStorage.key(i);
+        if (localStorage.getItem(imagePath) === 'selected') {
+            count++;
+        }
+    }
 
+    let pricePerImage;
+    const event_folder_name = getCurrentSubfolder();
+    const valueType = eventValueConfig[event_folder_name] || 'tabela01';
+    console.log('Calculando valor para:', event_folder_name, 'com tipo de valor:', valueType);
 
+    if (valueType === 'tabela02') {
+        if (count >= 1 && count <= 9) {
+            pricePerImage = 25.00;
+        } else if (count >= 10 && count <= 19) {
+            pricePerImage = 22.50;
+        } else if (count >= 20) {
+            pricePerImage = 20.00;
+        }
+    } else {
+        if (count >= 1 && count <= 9) {
+            pricePerImage = 20.00;
+        } else if (count >= 10 && count <= 19) {
+            pricePerImage = 17.50;
+        } else if (count >= 20) {
+            pricePerImage = 15.00;
+        }
+    }
+
+    const totalValue = count * pricePerImage;
+    document.getElementById('totalValue').value = `R$ ${totalValue.toFixed(2)}`;
+    console.log('Total calculado:', totalValue);
+}
+
+function updateImageCount() {
+    let count = 0;
+    for (let i = 0; i < localStorage.length; i++) {
+        const imagePath = localStorage.key(i);
+        if (localStorage.getItem(imagePath) === 'selected') {
+            count++;
+        }
+    }
+
+    const cartCounters = document.querySelectorAll('.cart-counter');
+    cartCounters.forEach(counter => {
+        counter.textContent = count;
+    });
+}
 
 function sendToWhatsApp() {
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
     const email = document.getElementById('email').value;
-    const totalValue = document.getElementById('totalValue').value;
-    const currentFolderName = document.getElementById('currentFolderName').value; // Supõe que o nome da pasta atual está armazenado aqui
-    const event_folder_name = getCurrentSubfolder();
+    const currentFolderName = getCurrentSubfolder();
 
     let imageNames = [];
     for (let i = 0; i < localStorage.length; i++) {
@@ -244,12 +235,11 @@ function sendToWhatsApp() {
         }
     }
 
-    let
-        message = `*Resumo do Pedido* \n\n`;
-    message += `*Evento*: ${event_folder_name}\n\n`;
+    let message = `*Resumo do Pedido* \n\n`;
+    message += `*Evento*: ${currentFolderName}\n\n`;
     message += `*Nome*: ${name}\n\n*Telefone*: ${phone}\n\n*Email*: ${email}\n\n`;
     message += `*Imagens Selecionadas:*\n ${imageNames.join(',\n ')}\n\n`;
-    message += `*Total do Pedido:* ${totalValue}`;
+    message += `*Total do Pedido:* ${document.getElementById('totalValue').value}`;
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/5511986879746?text=${encodedMessage}`;
@@ -263,12 +253,9 @@ function sendToWhatsApp() {
         updateCheckmarks();
         updateTotalValue();
         updateImageCount();
-        removeFromCart(imageObj.id, imgContainer);
     }, 300000); // 300000 milissegundos = 5 minutos
-
-
 }
 
-// ----------------------------------------------------------------------------------------
+
 
 

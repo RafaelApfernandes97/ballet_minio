@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Configurar Valor do Evento</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 10px 10px 0 0;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            padding-left: 0;
+        }
+        ul li {
+            list-style: none;
+            background: #e9ecef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Configurar Valor do Evento</h1>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="event_name">Evento</label>
+                        <select id="event_name" name="event_name" class="form-control" required>
+                            {% for event in events %}
+                            <option value="{{ event }}">{{ event }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="value_type">Tipo de Valor</label>
+                        <select id="value_type" name="value_type" class="form-control" required>
+                            <option value="tabela01">Tabela 01</option>
+                            <option value="tabela02">Tabela 02</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-save"></i> Salvar</button>
+                </form>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-header">
+                <h2>Eventos Publicados</h2>
+            </div>
+            <div class="card-body">
+                <ul>
+                    {% for event, value_type in config.items() %}
+                    <li><strong>{{ event }}</strong>: {{ value_type }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
