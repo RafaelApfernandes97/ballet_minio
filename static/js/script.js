@@ -190,6 +190,8 @@ function updateTotalValue() {
         } else if (count >= 20) {
             pricePerImage = 20.00;
         }
+    } else if (valueType === 'tabela03') {
+        pricePerImage = 20.00;
     } else {
         if (count >= 1 && count <= 9) {
             pricePerImage = 20.00;
@@ -204,6 +206,7 @@ function updateTotalValue() {
     document.getElementById('totalValue').value = `R$ ${totalValue.toFixed(2)}`;
     console.log('Total calculado:', totalValue);
 }
+
 
 function updateImageCount() {
     let count = 0;
@@ -255,7 +258,3 @@ function sendToWhatsApp() {
         updateImageCount();
     }, 300000); // 300000 milissegundos = 5 minutos
 }
-
-
-
-
