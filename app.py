@@ -5,6 +5,7 @@ import json
 import os
 import re
 import time
+from natsort import natsorted
 
 app = Flask(__name__)
 
@@ -94,14 +95,12 @@ def get_cover_image(folder_prefix):
     save_cache(cache)
     return default_image
 
-
-
 # Função auxiliar para extrair o número da pasta para ordenação
 def extract_number(s):
     # Encontra todos os grupos de dígitos no nome
     matches = re.findall(r'\d+', s)
-    # Retorna o maior número encontrado no nome para usar na ordenação
-    return max(map(int, matches)) if matches else 0
+    # Retorna o número encontrado no nome para usar na ordenação, assumindo que há um único número por nome
+    return int(matches[0]) if matches else float('inf')
 
 def list_items(prefix=''):
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
@@ -117,8 +116,8 @@ def list_items(prefix=''):
             'cover_image_url': cover_image_url
         })
     
-    # Ordena as pastas baseado no número extraído do nome
-    folders.sort(key=lambda x: extract_number(x['name']))
+    # Ordena as pastas usando natsorted para ordenação natural
+    folders = natsorted(folders, key=lambda x: x['name'])
 
     files = []
     for obj in response.get('Contents', []):
@@ -131,19 +130,10 @@ def list_items(prefix=''):
             }
             files.append(file_info)
     
-    # Ordena os arquivos de imagem baseado no número extraído do nome
-    files.sort(key=lambda x: extract_number(x['name']) if x['is_image'] else float('inf'))
+    # Ordena os arquivos de imagem usando natsorted para ordenação natural
+    files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
 
     return folders, files
-
-
-
-
-
-
-
-
-
 
 selected_images = set()  # Using a set to avoid duplicates
 

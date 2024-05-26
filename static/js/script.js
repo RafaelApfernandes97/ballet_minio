@@ -20,6 +20,7 @@ function toggleSelection(element) {
     }
     updateImageCount();
     updateTotalValue();  // Atualiza o valor total quando a seleção muda
+    updateCartDisplay(); // Atualiza o carrinho quando a seleção muda
 }
 
 window.onload = function () {
@@ -39,6 +40,7 @@ window.onload = function () {
     updateCheckmarks();  // Atualiza todos os checkmarks após a remoção
     updateImageCount();
     updateTotalValue();  // Atualiza o valor total ao carregar a página
+    updateCartDisplay(); // Atualiza o carrinho ao carregar a página
 };
 
 function updateCheckmarks() {
@@ -148,6 +150,7 @@ function removeFromCart(imagePath, imgContainer) {
     updateCheckmarks();  // Atualiza todos os checkmarks após a remoção
     updateTotalValue();
     updateImageCount();
+    updateCartDisplay();  // Atualiza o carrinho após remover item
 }
 
 let eventValueConfig = {};
@@ -207,7 +210,6 @@ function updateTotalValue() {
     console.log('Total calculado:', totalValue);
 }
 
-
 function updateImageCount() {
     let count = 0;
     for (let i = 0; i < localStorage.length; i++) {
@@ -230,17 +232,20 @@ function sendToWhatsApp() {
     const currentFolderName = getCurrentSubfolder();
 
     let imageNames = [];
+    let count = 0;  // Contador para quantidade de imagens
     for (let i = 0; i < localStorage.length; i++) {
         const imagePath = localStorage.key(i);
         if (localStorage.getItem(imagePath) === 'selected') {
             const imageName = decodeURIComponent(imagePath.split('/').pop());
             imageNames.push(imageName);
+            count++;  // Incrementa contador
         }
     }
 
     let message = `*Resumo do Pedido* \n\n`;
     message += `*Evento*: ${currentFolderName}\n\n`;
     message += `*Nome*: ${name}\n\n*Telefone*: ${phone}\n\n*Email*: ${email}\n\n`;
+    message += `*Quantidade de Imagens Selecionadas*: ${count}\n\n`;  // Adiciona quantidade ao resumo
     message += `*Imagens Selecionadas:*\n ${imageNames.join(',\n ')}\n\n`;
     message += `*Total do Pedido:* ${document.getElementById('totalValue').value}`;
 
@@ -256,5 +261,6 @@ function sendToWhatsApp() {
         updateCheckmarks();
         updateTotalValue();
         updateImageCount();
+        updateCartDisplay();
     }, 300000); // 300000 milissegundos = 5 minutos
 }
