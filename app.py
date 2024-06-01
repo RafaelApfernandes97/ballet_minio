@@ -6,6 +6,7 @@ import os
 import re
 import time
 from natsort import natsorted
+import requests  # Adicione esta linha
 
 app = Flask(__name__)
 
@@ -45,7 +46,6 @@ def index(path):
     # Caso contrário, continue renderizando 'index.html'
     return render_template('index.html', folders=folders, files=files, current_path=path)
 
-
 def load_cache():
     try:
         with open(cache_file, 'r') as file:
@@ -68,28 +68,26 @@ def regenerate_url_and_update_cache(folder_prefix, key):
     save_cache(cache)
     return url
 
+def validate_url(url):
+    try:
+        response = requests.head(url, timeout=5)
+        return response.status_code == 200
+    except requests.RequestException:
+        return False
+
 def get_cover_image(folder_prefix):
     cache = load_cache()
     if folder_prefix in cache:
         cached_data = cache[folder_prefix]
         if 'url' in cached_data and 'timestamp' in cached_data and not is_url_expired(cached_data['timestamp']):
-            return cached_data['url']
-        else:
-            # O código aqui deve lidar com a situação de dados incompletos ou expirados
-            # Isso pode envolver regenerar a URL e atualizar o cache
-            # Encontra a chave do objeto para regenerar a URL
-            response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
-            for obj in response.get('Contents', []):
-                if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
-                    return regenerate_url_and_update_cache(folder_prefix, obj['Key'])
-
-    # Se a URL não estiver no cache ou precisar ser regenerada mas nenhum arquivo corresponder, gera nova
+            if validate_url(cached_data['url']):
+                return cached_data['url']
+    
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
     for obj in response.get('Contents', []):
         if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
             return regenerate_url_and_update_cache(folder_prefix, obj['Key'])
 
-    # Retorna uma imagem padrão se nenhuma imagem for encontrada
     default_image = '/static/img/sem_capa.jpg'
     cache[folder_prefix] = {'url': default_image, 'timestamp': time.time()}
     save_cache(cache)
@@ -97,9 +95,7 @@ def get_cover_image(folder_prefix):
 
 # Função auxiliar para extrair o número da pasta para ordenação
 def extract_number(s):
-    # Encontra todos os grupos de dígitos no nome
     matches = re.findall(r'\d+', s)
-    # Retorna o número encontrado no nome para usar na ordenação, assumindo que há um único número por nome
     return int(matches[0]) if matches else float('inf')
 
 def list_items(prefix=''):
@@ -116,7 +112,6 @@ def list_items(prefix=''):
             'cover_image_url': cover_image_url
         })
     
-    # Ordena as pastas usando natsorted para ordenação natural
     folders = natsorted(folders, key=lambda x: x['name'])
 
     files = []
@@ -130,7 +125,6 @@ def list_items(prefix=''):
             }
             files.append(file_info)
     
-    # Ordena os arquivos de imagem usando natsorted para ordenação natural
     files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
 
     return folders, files
@@ -187,7 +181,6 @@ def load_config():
     global event_value_config
     return jsonify(event_value_config)
 
-# Certifique-se de chamar load_event_value_config ao iniciar a aplicação
 if __name__ == '__main__':
     load_event_value_config()
     app.run(debug=True)
