@@ -50,12 +50,13 @@ def load_cache():
     try:
         with open(cache_file, 'r') as file:
             return json.load(file)
-    except FileNotFoundError:
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Erro ao carregar o cache: {e}")
         return {}
 
 def save_cache(cache):
     with open(cache_file, 'w') as file:
-        json.dump(cache, file)
+        json.dump(cache, file, indent=4)
 
 def is_url_expired(timestamp, max_age=604800):
     return (time.time() - timestamp) > max_age
