@@ -385,14 +385,10 @@ function validateForm() {
 }
 
 function displaySuccessNotification() {
-    toastr.success('Você será direcionada para o WhatsApp para concluir sua compra.!', 'Compra Finalizada', { timeOut: 5000 });
+    toastr.success('Você será direcionada para o WhatsApp para concluir sua compra.', 'Compra Finalizada', { timeOut: 5000 });
     setTimeout(() => {
         sendToWhatsApp();
     }, 5000);
-}
-
-function whatsapp() {
-    sendToWhatsApp()
 }
 
 function sendToWhatsApp() {
@@ -438,8 +434,11 @@ function sendToWhatsApp() {
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/5511986879746?text=${encodedMessage}`;
-    window.open(whatsappUrl, '_blank');
+    
+    // Redireciona para o WhatsApp após 5 segundos
+    window.location.href = whatsappUrl;
 
+    // Limpa o localStorage após redirecionar
     setTimeout(() => {
         console.log('Attempting to clear LocalStorage...');
         localStorage.clear();
@@ -449,9 +448,8 @@ function sendToWhatsApp() {
         updateTotalValue();
         updateImageCount();
         updateCartDisplay();
-    }, 300000); // 300000 milissegundos = 5 minutos
+    }, 5000); // 5000 milissegundos = 5 segundos
 }
-
 
 // Adiciona um listener para o campo de CEP para autocompletar o endereço
 document.getElementById('cep').addEventListener('blur', function () {
