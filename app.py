@@ -25,13 +25,7 @@ VAPID_CLAIMS = {
 subscriptions = []
 
 try:
-    # Conectando ao Redis usando as credenciais fornecidas
-    redis_webpush = redis.StrictRedis(
-        host='109.199.119.223', 
-        port=6379, 
-        password='RFernandes2803@', 
-        db=0
-    )
+    redis_webpush = redis.StrictRedis(host='109.199.119.223', port=6379, db=0)
     redis_webpush.ping()
     print("Conexão com o Redis estabelecida com sucesso!")
 except redis.ConnectionError as e:
