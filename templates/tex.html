@@ -1,0 +1,52 @@
+Ajuste as classes do modal pois antes ele aparecia como carroulsell normal conforme esse aqui que as classes estão corretas 
+
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg"> <!-- Ajuste o tamanho do modal conforme necessário -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Seu Carrinho</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <!-- Título para as imagens selecionadas -->
+                    <h5>Fotos</h5>
+                    <div id="selectedImagesContainer" class="carousel-container"></div>
+    
+                    <!-- Título para os vídeos selecionados -->
+                    <h5>Vídeos</h5>
+                    <div id="selectedVideosContainer" class="videos-container"></div>
+    
+                    <!-- Formulário para coleta de informações -->
+                    <form id="cartForm" method="POST" action="/submit_order">
+                        <div class="form-field">
+                            <label for="name">Nome:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Telefone:</label>
+                            <input type="text" class="form-control" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+    
+                        <div class="botton_envio">
+                            <div class="valor_form form-field">
+                                <label class="valor_form_label" for="totalValue">Total:</label>
+                                <input type="text" class="input_valorForm" id="totalValue" name="totalValue" readonly>
+                                <input type="hidden" id="currentFolderName" value="{{ current_folder_name }}">
+                            </div>
+    
+                            <div class="button-envio">
+                                <button type="button" class="button---envio" onclick="sendToWhatsApp()">Enviar <span
+                                        class="cart-counter span_envio">0</span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, request, jsonify
+from flask import Flask, render_template, redirect, url_for, request, jsonify, send_from_directory
 import boto3
 from botocore.client import Config
 import json
@@ -6,9 +6,125 @@ import os
 import re
 import time
 from natsort import natsorted
-import requests  # Adicione esta linha
+import requests
+from flask_toastr import Toastr
+from pywebpush import webpush, WebPushException
+import redis
+import uuid
 
 app = Flask(__name__)
+toastr = Toastr(app)
+
+# Substitua com suas novas chaves VAPID
+VAPID_PUBLIC_KEY = "BO8JMOcEZWU8ycbE-UZRZD0r5Q-lQy28f5DZMUaF_vFV_NDagvj6Xc7OQz5cBj0CpYamkH9q-ab7dfctrglde00"
+VAPID_PRIVATE_KEY = "9gjBdaUSxyqp_NEDfTGs8yXjQ20ckk3CLMYzjyy2ju4"
+VAPID_CLAIMS = {
+    "sub": "mailto:rafael.apfernandes78@gmail.com"
+}
+
+subscriptions = []
+
+try:
+    redis_webpush = redis.StrictRedis(host='localhost', port=6379, db=0)
+    redis_webpush.ping()
+    print("Conexão com o Redis estabelecida com sucesso!")
+except redis.ConnectionError as e:
+    print(f"Erro ao conectar ao Redis: {e}")
+
+
+@app.route('/service-worker.js')
+def service_worker():
+    return send_from_directory('static/js', 'service-worker.js')
+
+@app.route('/save-subscription', methods=['POST'])
+def save_subscription():
+    subscription = request.get_json()
+    if subscription not in subscriptions:
+        subscriptions.append(subscription)
+    return jsonify({"message": "Inscrição salva com sucesso"}), 201
+
+@app.route('/send-notification', methods=['POST'])
+def send_notification():
+    notification = request.get_json()
+    print(f"Enviando notificação: {notification}")
+    subscriptions_to_remove = []
+    for subscription in subscriptions:
+        try:
+            webpush(
+                subscription_info=subscription,
+                data=json.dumps(notification),
+                vapid_private_key=VAPID_PRIVATE_KEY,
+                vapid_claims=VAPID_CLAIMS
+            )
+            print(f"Notificação enviada para: {subscription['endpoint']}")
+        except WebPushException as ex:
+            print(f"Erro ao enviar notificação: {ex}")
+            if ex.response and ex.response.status_code == 410:
+                print(f"Removendo inscrição expirada: {subscription['endpoint']}")
+                subscriptions_to_remove.append(subscription)
+            elif ex.response and ex.response.status_code == 403:
+                print("Erro de credenciais VAPID")
+    
+    for subscription in subscriptions_to_remove:
+        subscriptions.remove(subscription)
+    
+    return jsonify({"message": "Notificação enviada"}), 200
+
+# Rota para salvar a inscrição
+@app.route('/subscribe', methods=['GET', 'POST'])
+def subscribe():
+    if request.method == "GET":
+        return jsonify({'public_key': VAPID_PUBLIC_KEY})
+    subscription_info = {
+        'endpoint': request.json.get('endpoint'),
+        'keys': request.json.get('keys'),
+        'expiration_time': request.json.get('expirationTime'),
+    }
+    webpush_key = str(uuid.uuid4())
+    redis_webpush.set('webpush:subscription:info:{}'.format(webpush_key), json.dumps(subscription_info))
+    redis_webpush.sadd('webpush:subscriptions', webpush_key)
+    return jsonify({'id': webpush_key})
+
+# Rota para enviar notificações
+@app.route('/notify', methods=['POST'])
+def notify():
+    count = 0
+    sub_webpush_key = 'webpush:subscription:info:{}'
+    message_data = {
+        'title': request.json.get('title'),
+        'body': request.json.get('body'),
+        'url': request.json.get('url'),
+    }
+    for key in redis_webpush.smembers('webpush:subscriptions'):
+        try:
+            sub_key = sub_webpush_key.format(key.decode())
+            sub_val = redis_webpush.get(sub_key)
+            if sub_val:
+                webpush(
+                    subscription_info=json.loads(sub_val),
+                    data=json.dumps(message_data),
+                    vapid_private_key=VAPID_PRIVATE_KEY,
+                    vapid_claims=VAPID_CLAIMS
+                )
+                count += 1
+                print(f'Notificação enviada para: {sub_key}')
+        except WebPushException as e:
+            print(f'Erro ao enviar notificação para {sub_key}: {e}')
+    print(f'Total de notificações enviadas: {count}')
+    return f"{count} notification(s) sent"
+
+# Rota para cancelar a inscrição
+@app.route('/unsubscribe', methods=['POST'])
+def unsubscribe():
+    webpush_key = request.json.get('client_uuid')
+    if not webpush_key:
+        return jsonify({'message': 'client_uuid is required'}), 400
+    redis_webpush.delete('webpush:subscription:info:{}'.format(webpush_key))
+    redis_webpush.srem('webpush:subscriptions', webpush_key)
+    return jsonify({'message': 'unsubscribed'})
+
+
+
 
 # Carregar credenciais do arquivo JSON
 with open('minio-credentials.json', 'r') as file:
@@ -25,26 +141,63 @@ s3 = boto3.client('s3',
 bucket_name = 'balletphotos'
 cache_file = 'cover_images_cache.json'
 
+def create_app(config):
+    app = Flask(__name__)
+    app.config.from_object(config)
+    toastr.init_app(app)
+    return app
+
 @app.route('/')
 def root():
-    # Redireciona para a pasta 'eventos/'
-    return redirect(url_for('index', path='eventos/'))
+    return redirect(url_for('index', path='eventos/', vapid_public_key=VAPID_PUBLIC_KEY))
 
 @app.route('/<path:path>/', methods=['GET'])
 def index(path):
-    # Garante que o caminho termina com '/'
     path = path.rstrip('/') + '/'
-    folders, files = list_items(path)
+    folders, files, video_file = list_items(path)
 
-    # Se estiver dentro da pasta 'eventos', renderize 'event_details.html'
     if path.startswith('eventos/'):
         last_folder_name = os.path.basename(os.path.normpath(path))
-        return render_template('event_details.html', folders=folders, files=files, event_folder=last_folder_name, current_path=path)
+        return render_template('event_details.html', folders=folders, files=files, video=video_file, event_folder=last_folder_name, current_path=path, vapid_public_key=VAPID_PUBLIC_KEY)
     
     print(path)
-
-    # Caso contrário, continue renderizando 'index.html'
     return render_template('index.html', folders=folders, files=files, current_path=path)
+
+def list_items(prefix=''):
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
+    
+    folders = []
+    for folder in response.get('CommonPrefixes', []):
+        folder_path = folder['Prefix']
+        folder_name = os.path.basename(os.path.normpath(folder_path))
+        cover_image_url = get_cover_image(folder_path)
+        
+        folders.append({
+            'name': folder_name,
+            'cover_image_url': cover_image_url
+        })
+    
+    folders = natsorted(folders, key=lambda x: x['name'])
+
+    files = []
+    video_file = None
+    for obj in response.get('Contents', []):
+        if not obj['Key'].endswith('/'):
+            file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
+            file_info = {
+                'name': os.path.basename(obj['Key']),
+                'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
+                'is_video': obj['Key'].lower().endswith('.mp4'),
+                'url': file_url,
+            }
+            if file_info['is_video']:
+                video_file = file_info
+            else:
+                files.append(file_info)
+    
+    files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
+
+    return folders, files, video_file
 
 def load_cache():
     try:
@@ -62,7 +215,6 @@ def is_url_expired(timestamp, max_age=604800):
     return (time.time() - timestamp) > max_age
 
 def regenerate_url_and_update_cache(folder_prefix, key):
-    """Gera uma nova URL pré-assinada e atualiza o cache."""
     url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': key}, ExpiresIn=604800)
     cache = load_cache()
     cache[folder_prefix] = {'url': url, 'timestamp': time.time()}
@@ -94,43 +246,7 @@ def get_cover_image(folder_prefix):
     save_cache(cache)
     return default_image
 
-# Função auxiliar para extrair o número da pasta para ordenação
-def extract_number(s):
-    matches = re.findall(r'\d+', s)
-    return int(matches[0]) if matches else float('inf')
-
-def list_items(prefix=''):
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
-    
-    folders = []
-    for folder in response.get('CommonPrefixes', []):
-        folder_path = folder['Prefix']
-        folder_name = os.path.basename(os.path.normpath(folder_path))
-        cover_image_url = get_cover_image(folder_path)
-        
-        folders.append({
-            'name': folder_name,
-            'cover_image_url': cover_image_url
-        })
-    
-    folders = natsorted(folders, key=lambda x: x['name'])
-
-    files = []
-    for obj in response.get('Contents', []):
-        if not obj['Key'].endswith('/'):
-            file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
-            file_info = {
-                'name': os.path.basename(obj['Key']),
-                'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
-                'url': file_url,
-            }
-            files.append(file_info)
-    
-    files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
-
-    return folders, files
-
-selected_images = set()  # Using a set to avoid duplicates
+selected_images = set()
 
 @app.route('/save-selection', methods=['POST'])
 def save_selection():

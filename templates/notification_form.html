@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar Notificação</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Enviar Notificação</h1>
+    <form id="notificationForm">
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title"><br>
+        <label for="message">Mensagem:</label>
+        <input type="text" id="message" name="message"><br>
+        <button type="submit">Enviar Notificação</button>
+    </form>
+
+    <script>
+        $('#notificationForm').on('submit', function(event) {
+            event.preventDefault();
+            const title = $('#title').val();
+            const message = $('#message').val();
+
+            $.ajax({
+                url: '/send-notification',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({title: title, message: message}),
+                success: function(response) {
+                    alert('Notificação enviada com sucesso!');
+                },
+                error: function(error) {
+                    alert('Erro ao enviar notificação.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

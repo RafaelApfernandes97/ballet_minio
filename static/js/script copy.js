@@ -385,7 +385,7 @@ function validateForm() {
 }
 
 function displaySuccessNotification() {
-    toastr.success('Você será direcionada para o WhatsApp para concluir sua compra.!', 'Compra Finalizada', { timeOut: 5000 });
+    toastr.success('Você será direcionada para o WhatsApp para concluir sua compra!', 'Compra Finalizada', { timeOut: 5000 });
     setTimeout(() => {
         sendToWhatsApp();
     }, 5000);
