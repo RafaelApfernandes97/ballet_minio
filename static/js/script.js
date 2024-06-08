@@ -4,27 +4,25 @@ function normalizeUrl(url) {
     return urlObj.toString();
 }
 
-function toggleSelection(element, key, name) {
+function toggleSelection(element) {
     var imagePath = normalizeUrl(element.getAttribute('data-image-path'));
     var checkmark = element.querySelector('.checkmark');
-    var checkbox = element.querySelector('.select-checkbox'); // Acessa a checkbox
+    var imgContainer = element.querySelector('.img_container'); // Acessa o contêiner da imagem
 
     if (localStorage.getItem(imagePath) === 'selected') {
         localStorage.removeItem(imagePath);
         checkmark.style.display = 'none';
-        checkbox.checked = false; // Desmarca a checkbox
-        element.classList.remove('selected'); // Remove a classe selected do próprio elemento
+        imgContainer.classList.remove('selected'); // Remove a classe selected
     } else {
         localStorage.setItem(imagePath, 'selected');
         checkmark.style.display = 'block';
-        checkbox.checked = true; // Marca a checkbox
-        element.classList.add('selected'); // Adiciona a classe selected ao próprio elemento
+        imgContainer.classList.add('selected'); // Adiciona a classe selected
     }
-    updateCheckmarks();  // Atualiza todos os checkmarks após a remoção
     updateImageCount();
-    updateTotalValue();  // Atualiza o valor total ao carregar a página
-    updateCartDisplay(); // Atualiza o carrinho ao carregar a página
+    updateTotalValue();  // Atualiza o valor total quando a seleção muda
+    updateCartDisplay(); // Atualiza o carrinho quando a seleção muda
 }
+
 
 window.onload = function () {
     document.querySelectorAll('.container_item').forEach(item => {
@@ -451,6 +449,7 @@ function sendToWhatsApp() {
     }, 5000); // 5000 milissegundos = 5 segundos
 }
 
+
 // Adiciona um listener para o campo de CEP para autocompletar o endereço
 document.getElementById('cep').addEventListener('blur', function () {
     const cep = this.value.replace(/\D/g, ''); // Remove caracteres não numéricos
@@ -480,87 +479,3 @@ function preencherEndereco(cep) {
             alert('Erro ao buscar o CEP. Tente novamente mais tarde.');
         });
 }
-
-
-// Função para converter a chave VAPID pública de Base64URL para Uint8Array
-function urlB64ToUint8Array(base64String) {
-    const padding = '='.repeat((4 - base64String.length % 4) % 4); // Ajusta para comprimento múltiplo de 4
-    const base64 = (base64String + padding)
-        .replace(/-/g, '+') // Converte de base64url para base64 padrão
-        .replace(/_/g, '/');
-    const rawData = window.atob(base64); // Decodifica a string base64 para binário
-    const outputArray = new Uint8Array(rawData.length);
-
-    for (let i = 0; i < rawData.length; ++i) {
-        outputArray[i] = rawData.charCodeAt(i);
-    }
-    return outputArray;
-}
-
-// Registrar o Service Worker e inicializar o PushManager
-if ('serviceWorker' in navigator && 'PushManager' in window) {
-    navigator.serviceWorker.register('/service-worker.js')
-      .then(function(registration) {
-        console.log('Service Worker registrado com sucesso:', registration);
-
-        // Cancelar a inscrição existente antes de tentar uma nova inscrição
-        registration.pushManager.getSubscription().then(function(subscription) {
-          if (subscription) {
-            return subscription.unsubscribe();
-          }
-        }).then(function() {
-          // Agora inscreva-se novamente
-          initializePushManager(registration);
-        }).catch(function(error) {
-          console.error('Erro ao cancelar a inscrição existente:', error);
-        });
-      }).catch(function(error) {
-        console.error('Falha ao registrar Service Worker:', error);
-      });
-}
-
-function initializePushManager(registration) {
-    const vapidPublicKey = "BO8JMOcEZWU8ycbE-UZRZD0r5Q-lQy28f5DZMUaF_vFV_NDagvj6Xc7OQz5cBj0CpYamkH9q-ab7dfctrglde00";
-    const applicationServerKey = urlB64ToUint8Array(vapidPublicKey);
-    
-    registration.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: applicationServerKey
-    }).then(function(subscription) {
-        console.log('Usuário inscrito com sucesso:', subscription);
-        saveSubscription(subscription);
-    }).catch(function(error) {
-        console.error('Falha ao se inscrever:', error);
-    });
-}
-
-function urlB64ToUint8Array(base64String) {
-    const padding = '='.repeat((4 - base64String.length % 4) % 4);
-    const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
-    const rawData = window.atob(base64);
-    const outputArray = new Uint8Array(rawData.length);
-    for (let i = 0; i < rawData.length; ++i) {
-        outputArray[i] = rawData.charCodeAt(i);
-    }
-    return outputArray;
-}
-
-function saveSubscription(subscription) {
-    fetch('/subscribe', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(subscription)
-    }).then(function(response) {
-        if (response.ok) {
-            console.log('Inscrição salva com sucesso.');
-        } else {
-            console.error('Falha ao salvar inscrição.');
-        }
-    }).catch(function(error) {
-        console.error('Erro ao enviar a subscrição:', error);
-    });
-}
-
-

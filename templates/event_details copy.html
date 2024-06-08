@@ -223,22 +223,6 @@
     <script src="{{ url_for('static', filename='js/script.js') }}" type="text/javascript"></script>
     {{ toastr.include_toastr_js() }}
 
-    <!-- <script>
-        if ('Notification' in window && navigator.serviceWorker) {
-            Notification.requestPermission().then(permission => {
-                if (permission === 'granted') {
-                    console.log('Notificações permitidas.');
-                    navigator.serviceWorker.register('{{ url_for("static", filename="js/service-worker.js") }}')
-                    .then(function(reg) {
-                        console.log('Service Worker registrado com sucesso.', reg);
-                    }).catch(function(error) {
-                        console.error('Falha ao registrar Service Worker.', error);
-                    });
-                } else {
-                    console.log('Notificações negadas.');
-                }
-            });
-        }
-    </script> -->
+
 </body>
 </html>
