@@ -13,11 +13,17 @@ import redis
 import uuid
 import logging
 
+
+
 app = Flask(__name__)
 toastr = Toastr(app)
 
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+
 
 
 # Carregar credenciais do arquivo JSON
