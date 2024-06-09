@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, request, jsonify
+from flask import Flask, render_template, redirect, url_for, request, jsonify, send_from_directory
 import boto3
 from botocore.client import Config
 import json
@@ -6,10 +6,15 @@ import os
 import re
 import time
 from natsort import natsorted
-import requests  # Adicione esta linha
+import requests
+from flask_toastr import Toastr
+from pywebpush import webpush, WebPushException
+import redis
+import uuid
 import logging
 
 app = Flask(__name__)
+toastr = Toastr(app)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -30,26 +35,63 @@ s3 = boto3.client('s3',
 bucket_name = 'balletphotos'
 cache_file = 'cover_images_cache.json'
 
+def create_app(config):
+    app = Flask(__name__)
+    app.config.from_object(config)
+    toastr.init_app(app)
+    return app
+
 @app.route('/')
 def root():
-    # Redireciona para a pasta 'eventos/'
     return redirect(url_for('index', path='eventos/'))
 
 @app.route('/<path:path>/', methods=['GET'])
 def index(path):
-    # Garante que o caminho termina com '/'
     path = path.rstrip('/') + '/'
-    folders, files = list_items(path)
+    folders, files, video_file = list_items(path)
 
-    # Se estiver dentro da pasta 'eventos', renderize 'event_details.html'
     if path.startswith('eventos/'):
         last_folder_name = os.path.basename(os.path.normpath(path))
-        return render_template('event_details.html', folders=folders, files=files, event_folder=last_folder_name, current_path=path)
+        return render_template('event_details.html', folders=folders, files=files, video=video_file, event_folder=last_folder_name, current_path=path)
     
     print(path)
-
-    # Caso contrário, continue renderizando 'index.html'
     return render_template('index.html', folders=folders, files=files, current_path=path)
+
+def list_items(prefix=''):
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
+    
+    folders = []
+    for folder in response.get('CommonPrefixes', []):
+        folder_path = folder['Prefix']
+        folder_name = os.path.basename(os.path.normpath(folder_path))
+        cover_image_url = get_cover_image(folder_path)
+        
+        folders.append({
+            'name': folder_name,
+            'cover_image_url': cover_image_url
+        })
+    
+    folders = natsorted(folders, key=lambda x: x['name'])
+
+    files = []
+    video_file = None
+    for obj in response.get('Contents', []):
+        if not obj['Key'].endswith('/'):
+            file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
+            file_info = {
+                'name': os.path.basename(obj['Key']),
+                'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
+                'is_video': obj['Key'].lower().endswith('.mp4'),
+                'url': file_url,
+            }
+            if file_info['is_video']:
+                video_file = file_info
+            else:
+                files.append(file_info)
+    
+    files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
+
+    return folders, files, video_file
 
 def load_cache():
     try:
@@ -67,7 +109,6 @@ def is_url_expired(timestamp, max_age=604800):
     return (time.time() - timestamp) > max_age
 
 def regenerate_url_and_update_cache(folder_prefix, key):
-    """Gera uma nova URL pré-assinada e atualiza o cache."""
     url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': key}, ExpiresIn=604800)
     cache = load_cache()
     cache[folder_prefix] = {'url': url, 'timestamp': time.time()}
@@ -100,43 +141,7 @@ def get_cover_image(folder_prefix):
     save_cache(cache)
     return default_image
 
-# Função auxiliar para extrair o número da pasta para ordenação
-def extract_number(s):
-    matches = re.findall(r'\d+', s)
-    return int(matches[0]) if matches else float('inf')
-
-def list_items(prefix=''):
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
-    
-    folders = []
-    for folder in response.get('CommonPrefixes', []):
-        folder_path = folder['Prefix']
-        folder_name = os.path.basename(os.path.normpath(folder_path))
-        cover_image_url = get_cover_image(folder_path)
-        
-        folders.append({
-            'name': folder_name,
-            'cover_image_url': cover_image_url
-        })
-    
-    folders = natsorted(folders, key=lambda x: x['name'])
-
-    files = []
-    for obj in response.get('Contents', []):
-        if not obj['Key'].endswith('/'):
-            file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
-            file_info = {
-                'name': os.path.basename(obj['Key']),
-                'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
-                'url': file_url,
-            }
-            files.append(file_info)
-    
-    files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
-
-    return folders, files
-
-selected_images = set()  # Using a set to avoid duplicates
+selected_images = set()
 
 @app.route('/save-selection', methods=['POST'])
 def save_selection():
