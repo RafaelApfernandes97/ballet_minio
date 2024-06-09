@@ -12,6 +12,8 @@ from pywebpush import webpush, WebPushException
 import redis
 import uuid
 import logging
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 app = Flask(__name__)
 toastr = Toastr(app)
@@ -121,12 +123,18 @@ def regenerate_url_and_update_cache(folder_prefix, key):
 
 def validate_url(url):
     try:
-        response = requests.head(url, timeout=5)
+        session = requests.Session()
+        retries = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+        session.mount('http://', HTTPAdapter(max_retries=retries))
+        session.mount('https://', HTTPAdapter(max_retries=retries))
+
+        response = session.head(url, timeout=5)
         return response.status_code == 200
     except requests.RequestException as e:
         logger.error(f"Erro ao validar a URL {url}: {e}")
         return False
 
+# Exemplo de uso na função get_cover_image
 def get_cover_image(folder_prefix):
     cache = load_cache()
     if folder_prefix in cache:
@@ -135,12 +143,7 @@ def get_cover_image(folder_prefix):
             if validate_url(cached_data['url']):
                 return cached_data['url']
     
-    try:
-        response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
-    except Exception as e:
-        logger.error(f"Erro ao listar objetos do bucket {bucket_name} com prefixo {folder_prefix}: {e}")
-        return '/static/img/sem_capa.jpg'
-
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
     for obj in response.get('Contents', []):
         if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
             return regenerate_url_and_update_cache(folder_prefix, obj['Key'])
