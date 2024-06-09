@@ -7,8 +7,13 @@ import re
 import time
 from natsort import natsorted
 import requests  # Adicione esta linha
+import logging
 
 app = Flask(__name__)
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 
 # Carregar credenciais do arquivo JSON
 with open('minio-credentials.json', 'r') as file:
@@ -73,7 +78,8 @@ def validate_url(url):
     try:
         response = requests.head(url, timeout=5)
         return response.status_code == 200
-    except requests.RequestException:
+    except requests.RequestException as e:
+        logger.error(f"Erro ao validar a URL {url}: {e}")
         return False
 
 def get_cover_image(folder_prefix):
