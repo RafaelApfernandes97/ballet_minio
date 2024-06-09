@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, request, jsonify, send_from_directory
+from flask import Flask, render_template, redirect, url_for, request, jsonify
 import boto3
 from botocore.client import Config
 import json
@@ -13,39 +13,35 @@ import redis
 import uuid
 import logging
 
-
-
 app = Flask(__name__)
 toastr = Toastr(app)
-
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-
-
-
-
 # Carregar credenciais do arquivo JSON
-with open('minio-credentials.json', 'r') as file:
-    credentials = json.load(file)
+try:
+    with open('minio-credentials.json', 'r') as file:
+        credentials = json.load(file)
+except FileNotFoundError:
+    logger.error("Arquivo de credenciais 'minio-credentials.json' não encontrado.")
+    raise
+except json.JSONDecodeError:
+    logger.error("Erro ao decodificar 'minio-credentials.json'. Verifique se o arquivo está no formato JSON correto.")
+    raise
 
 # Configuração do cliente MinIO
-s3 = boto3.client('s3',
-                  endpoint_url='https://site-ballet-minio.mj6dzq.easypanel.host',
-                  aws_access_key_id=credentials['aws_access_key_id'],
-                  aws_secret_access_key=credentials['aws_secret_access_key'],
-                  config=Config(signature_version='s3v4'),
-                  region_name='us-east-1')
+s3 = boto3.client(
+    's3',
+    endpoint_url='https://site-ballet-minio.mj6dzq.easypanel.host',
+    aws_access_key_id=credentials['aws_access_key_id'],
+    aws_secret_access_key=credentials['aws_secret_access_key'],
+    config=Config(signature_version='s3v4'),
+    region_name='us-east-1'
+)
 
 bucket_name = 'balletphotos'
 cache_file = 'cover_images_cache.json'
-
-def create_app(config):
-    app = Flask(__name__)
-    app.config.from_object(config)
-    toastr.init_app(app)
-    return app
 
 @app.route('/')
 def root():
@@ -54,28 +50,31 @@ def root():
 @app.route('/<path:path>/', methods=['GET'])
 def index(path):
     path = path.rstrip('/') + '/'
-    folders, files, video_file = list_items(path)
+    try:
+        folders, files, video_file = list_items(path)
+    except Exception as e:
+        logger.error(f"Erro ao listar itens para o caminho {path}: {e}")
+        return render_template('error.html', message=str(e)), 500
 
     if path.startswith('eventos/'):
         last_folder_name = os.path.basename(os.path.normpath(path))
         return render_template('event_details.html', folders=folders, files=files, video=video_file, event_folder=last_folder_name, current_path=path)
-    
-    print(path)
+
     return render_template('index.html', folders=folders, files=files, current_path=path)
 
 def list_items(prefix=''):
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
-    
+    try:
+        response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
+    except Exception as e:
+        logger.error(f"Erro ao listar objetos do bucket {bucket_name} com prefixo {prefix}: {e}")
+        raise
+
     folders = []
     for folder in response.get('CommonPrefixes', []):
         folder_path = folder['Prefix']
         folder_name = os.path.basename(os.path.normpath(folder_path))
         cover_image_url = get_cover_image(folder_path)
-        
-        folders.append({
-            'name': folder_name,
-            'cover_image_url': cover_image_url
-        })
+        folders.append({'name': folder_name, 'cover_image_url': cover_image_url})
     
     folders = natsorted(folders, key=lambda x: x['name'])
 
@@ -96,7 +95,6 @@ def list_items(prefix=''):
                 files.append(file_info)
     
     files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
-
     return folders, files, video_file
 
 def load_cache():
@@ -104,7 +102,7 @@ def load_cache():
         with open(cache_file, 'r') as file:
             return json.load(file)
     except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"Erro ao carregar o cache: {e}")
+        logger.error(f"Erro ao carregar o cache: {e}")
         return {}
 
 def save_cache(cache):
@@ -137,7 +135,12 @@ def get_cover_image(folder_prefix):
             if validate_url(cached_data['url']):
                 return cached_data['url']
     
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
+    try:
+        response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
+    except Exception as e:
+        logger.error(f"Erro ao listar objetos do bucket {bucket_name} com prefixo {folder_prefix}: {e}")
+        return '/static/img/sem_capa.jpg'
+
     for obj in response.get('Contents', []):
         if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
             return regenerate_url_and_update_cache(folder_prefix, obj['Key'])
@@ -165,7 +168,6 @@ def remove_selection():
         json.dump(list(selected_images), f)
     return jsonify({"status": "removed", "imageName": data['imageName']})
 
-
 event_value_config = {}
 
 @app.route('/config-event', methods=['GET', 'POST'])
@@ -182,9 +184,13 @@ def config_event():
     return render_template('config_event.html', events=events, config=event_value_config)
 
 def get_event_list():
-    response = s3.list_objects_v2(Bucket=bucket_name, Prefix='eventos/', Delimiter='/')
-    events = [os.path.basename(os.path.normpath(event['Prefix'])) for event in response.get('CommonPrefixes', [])]
-    return events
+    try:
+        response = s3.list_objects_v2(Bucket=bucket_name, Prefix='eventos/', Delimiter='/')
+        events = [os.path.basename(os.path.normpath(event['Prefix'])) for event in response.get('CommonPrefixes', [])]
+        return events
+    except Exception as e:
+        logger.error(f"Erro ao listar eventos: {e}")
+        return []
 
 def load_event_value_config():
     global event_value_config
