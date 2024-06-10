@@ -3,16 +3,12 @@ import boto3
 from botocore.client import Config
 import json
 import os
-import re
 import time
 from natsort import natsorted
 import requests
 from flask_toastr import Toastr
-import redis
-import uuid
 import logging
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from apscheduler.schedulers.background import BackgroundScheduler
 
 app = Flask(__name__)
 toastr = Toastr(app)
@@ -115,27 +111,12 @@ def regenerate_url_and_update_cache(folder_prefix, key):
     save_cache(cache)
     return url
 
-def validate_url(url):
-    try:
-        session = requests.Session()
-        retries = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
-        session.mount('http://', HTTPAdapter(max_retries=retries))
-        session.mount('https://', HTTPAdapter(max_retries=retries))
-
-        response = session.head(url, timeout=5)
-        return response.status_code == 200
-    except requests.RequestException as e:
-        logger.error(f"Erro ao validar a URL {url}: {e}")
-        return False
-
-# Exemplo de uso na função get_cover_image
 def get_cover_image(folder_prefix):
     cache = load_cache()
     if folder_prefix in cache:
         cached_data = cache[folder_prefix]
         if 'url' in cached_data and 'timestamp' in cached_data and not is_url_expired(cached_data['timestamp']):
-            if validate_url(cached_data['url']):
-                return cached_data['url']
+            return cached_data['url']
     
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix)
     for obj in response.get('Contents', []):
@@ -146,6 +127,16 @@ def get_cover_image(folder_prefix):
     cache[folder_prefix] = {'url': default_image, 'timestamp': time.time()}
     save_cache(cache)
     return default_image
+
+def clear_cache_and_generate_new_urls():
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix='eventos/', Delimiter='/')
+    for folder in response.get('CommonPrefixes', []):
+        folder_path = folder['Prefix']
+        response_inner = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_path)
+        for obj in response_inner.get('Contents', []):
+            if obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')):
+                regenerate_url_and_update_cache(folder_path, obj['Key'])
+                break  # Assuming one cover image per folder
 
 selected_images = set()
 
@@ -204,4 +195,13 @@ def load_config():
 
 if __name__ == '__main__':
     load_event_value_config()
-    app.run(debug=True)
+
+    # Agendar a limpeza do cache e a geração de novas URLs diariamente à meia-noite
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(clear_cache_and_generate_new_urls, 'cron', hour=0, minute=0)
+    scheduler.start()
+
+    try:
+        app.run(debug=True)
+    except (KeyboardInterrupt, SystemExit):
+        scheduler.shutdown()
