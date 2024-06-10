@@ -23,7 +23,6 @@ function toggleSelection(element) {
     updateCartDisplay(); // Atualiza o carrinho quando a seleção muda
 }
 
-
 window.onload = function () {
     document.querySelectorAll('.container_item').forEach(item => {
         const imagePath = normalizeUrl(item.getAttribute('data-image-path'));
@@ -100,28 +99,18 @@ function openCartModal() {
 
 function updateCartDisplay() {
     var imagesContainer = document.getElementById('selectedImagesContainer');
-    var videosContainer = document.getElementById('selectedVideosContainer');
     imagesContainer.innerHTML = '';  // Limpa o contêiner existente
-    videosContainer.innerHTML = '';  // Limpa o contêiner existente
 
     let selectedImages = [];
-    let selectedVideos = [];
 
     // Itera sobre todos os itens salvos no LocalStorage
     for (let i = 0; i < localStorage.length; i++) {
         const imagePath = localStorage.key(i);
         if (localStorage.getItem(imagePath) === 'selected') {
-            if (imagePath.toLowerCase().endsWith('.mp4')) {
-                selectedVideos.push({
-                    id: imagePath,
-                    name: imagePath.split('/').pop()  // Assume que o nome do arquivo é a última parte do caminho
-                });
-            } else {
-                selectedImages.push({
-                    id: imagePath,
-                    name: imagePath.split('/').pop()  // Assume que o nome do arquivo é a última parte do caminho
-                });
-            }
+            selectedImages.push({
+                id: imagePath,
+                name: imagePath.split('/').pop()  // Assume que o nome do arquivo é a última parte do caminho
+            });
         }
     }
     updateImageCount();
@@ -161,40 +150,6 @@ function updateCartDisplay() {
 
         imagesContainer.appendChild(carouselContainer);
     }
-
-    if (selectedVideos.length > 0) {
-        const videosList = document.createElement('ul');
-        videosList.className = 'videos-list';
-
-        selectedVideos.forEach((videoObj) => {
-            const videoItem = document.createElement('li');
-            videoItem.className = 'video-item';
-
-            const videoName = document.createElement('span');
-            videoName.textContent = videoObj.name;
-            videoName.className = 'video-name';
-
-            const removeBtn = document.createElement('button');
-            removeBtn.className = 'remove-video-btn';
-
-            const spanElement = document.createElement('span');
-            spanElement.textContent = 'X';
-            spanElement.className = 'span_remove';
-
-            removeBtn.onclick = function () {
-                removeFromCart(videoObj.id, videoItem);  // Define a ação para remover da seleção
-            };
-
-            removeBtn.appendChild(spanElement);
-
-            videoItem.appendChild(videoName);
-            videoItem.appendChild(removeBtn);
-
-            videosList.appendChild(videoItem);
-        });
-
-        videosContainer.appendChild(videosList);
-    }
 }
 
 function removeFromCart(imagePath, itemContainer) {
@@ -226,15 +181,10 @@ function getCurrentSubfolder() {
 
 function updateTotalValue() {
     let imageCount = 0;
-    let videoCount = 0;
     for (let i = 0; i < localStorage.length; i++) {
         const imagePath = localStorage.key(i);
         if (localStorage.getItem(imagePath) === 'selected') {
-            if (typeof imagePath === 'string' && imagePath.toLowerCase().endsWith('.mp4')) {
-                videoCount++;
-            } else {
-                imageCount++;
-            }
+            imageCount++;
         }
     }
 
@@ -264,30 +214,9 @@ function updateTotalValue() {
         }
     }
 
-    // Calcula o preço por vídeo
-    let pricePerVideo = 0;
-    if (valueType === 'tabela01') {
-        if (videoCount >= 1 && videoCount <= 2) {
-            pricePerVideo = 45.00;
-        } else if (videoCount >= 3 && videoCount <= 5) {
-            pricePerVideo = 40.00;
-        } else if (videoCount >= 6) {
-            pricePerVideo = 35.00;
-        }
-    } else if (valueType === 'tabela02') {
-        if (videoCount >= 1 && videoCount <= 2) {
-            pricePerVideo = 50.00;
-        } else if (videoCount >= 3 & videoCount <= 5) {
-            pricePerVideo = 45.00;
-        } else if (videoCount >= 6) {
-            pricePerVideo = 40.00;
-        }
-    }
-
-    // Certifique-se de que pricePerImage e pricePerVideo são números antes de calcular o total
+    // Certifique-se de que pricePerImage é um número antes de calcular o total
     pricePerImage = parseFloat(pricePerImage) || 0;
-    pricePerVideo = parseFloat(pricePerVideo) || 0;
-    const totalValue = (imageCount * pricePerImage) + (videoCount * pricePerVideo);
+    const totalValue = imageCount * pricePerImage;
 
     // Verifique se totalValue é um número válido
     if (!isNaN(totalValue)) {
@@ -403,21 +332,14 @@ function sendToWhatsApp() {
     const currentFolderName = getCurrentSubfolder();
 
     let imageNames = [];
-    let videoNames = [];
     let imageCount = 0;
-    let videoCount = 0;
 
     for (let i = 0; i < localStorage.length; i++) {
         const imagePath = localStorage.key(i);
         if (localStorage.getItem(imagePath) === 'selected') {
             const itemName = decodeURIComponent(imagePath.split('/').pop());
-            if (imagePath.toLowerCase().endsWith('.mp4')) {
-                videoNames.push(itemName);
-                videoCount++;
-            } else {
-                imageNames.push(itemName);
-                imageCount++;
-            }
+            imageNames.push(itemName);
+            imageCount++;
         }
     }
 
@@ -427,7 +349,6 @@ function sendToWhatsApp() {
     message += `*CPF*: ${cpf}\n\n`;
     message += `*Endereço*: ${rua}, ${numero} - ${bairro}, ${cidade}, ${estado}, CEP: ${cep}\n\n`;
     message += `*Imagens Selecionadas:* ${imageCount} \n ${imageNames.join(',\n ')}\n\n`;
-    message += `*Vídeos Selecionados:* ${videoCount} \n ${videoNames.join(',\n ')}\n\n`;
     message += `*Total do Pedido:* ${document.getElementById('totalValue').value}\n\n`;
 
     const encodedMessage = encodeURIComponent(message);
@@ -448,7 +369,6 @@ function sendToWhatsApp() {
         updateCartDisplay();
     }, 5000); // 5000 milissegundos = 5 segundos
 }
-
 
 // Adiciona um listener para o campo de CEP para autocompletar o endereço
 document.getElementById('cep').addEventListener('blur', function () {
