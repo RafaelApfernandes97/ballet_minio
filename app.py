@@ -8,6 +8,9 @@ import time
 from natsort import natsorted
 import requests
 from flask_toastr import Toastr
+from pywebpush import webpush, WebPushException
+import redis
+import uuid
 import logging
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -18,29 +21,29 @@ toastr = Toastr(app)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Carregar credenciais do ambiente
-endpoint_url = os.environ.get('endpoint_url')
-aws_access_key_id = os.environ.get('aws_access_key_id')
-aws_secret_access_key = os.environ.get('aws_secret_access_key')
+# Carregar credenciais do arquivo JSON
+try:
+    with open('minio-credentials.json', 'r') as file:
+        credentials = json.load(file)
+except FileNotFoundError:
+    logger.error("Arquivo de credenciais 'minio-credentials.json' não encontrado.")
+    raise
+except json.JSONDecodeError:
+    logger.error("Erro ao decodificar 'minio-credentials.json'. Verifique se o arquivo está no formato JSON correto.")
+    raise
 
 # Configuração do cliente MinIO
 s3 = boto3.client(
     's3',
-    endpoint_url=endpoint_url,
-    aws_access_key_id=aws_access_key_id,
-    aws_secret_access_key=aws_secret_access_key,
+    endpoint_url='https://site-ballet-minio.mj6dzq.easypanel.host',
+    aws_access_key_id=credentials['aws_access_key_id'],
+    aws_secret_access_key=credentials['aws_secret_access_key'],
     config=Config(signature_version='s3v4'),
     region_name='us-east-1'
 )
 
 bucket_name = 'balletphotos'
 cache_file = 'cover_images_cache.json'
-
-# Reutilizando a sessão HTTP
-session = requests.Session()
-retries = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
-session.mount('http://', HTTPAdapter(max_retries=retries))
-session.mount('https://', HTTPAdapter(max_retries=retries))
 
 @app.route('/')
 def root():
@@ -120,12 +123,18 @@ def regenerate_url_and_update_cache(folder_prefix, key):
 
 def validate_url(url):
     try:
+        session = requests.Session()
+        retries = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+        session.mount('http://', HTTPAdapter(max_retries=retries))
+        session.mount('https://', HTTPAdapter(max_retries=retries))
+
         response = session.head(url, timeout=5)
         return response.status_code == 200
     except requests.RequestException as e:
         logger.error(f"Erro ao validar a URL {url}: {e}")
         return False
 
+# Exemplo de uso na função get_cover_image
 def get_cover_image(folder_prefix):
     cache = load_cache()
     if folder_prefix in cache:
@@ -169,7 +178,7 @@ def config_event():
     if request.method == 'POST':
         event_name = request.form.get('event_name')
         value_type = request.form.get('value_type')
-        event_value_config[event_name] = valueita_type
+        event_value_config[event_name] = value_type
         with open('event_value_config.json', 'w') as f:
             json.dump(event_value_config, f)
         return redirect(url_for('config_event'))
