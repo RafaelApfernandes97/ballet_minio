@@ -8,7 +8,6 @@ import time
 from natsort import natsorted
 import requests
 from flask_toastr import Toastr
-from pywebpush import webpush, WebPushException
 import redis
 import uuid
 import logging
@@ -53,14 +52,14 @@ def root():
 def index(path):
     path = path.rstrip('/') + '/'
     try:
-        folders, files, video_file = list_items(path)
+        folders, files = list_items(path)
     except Exception as e:
         logger.error(f"Erro ao listar itens para o caminho {path}: {e}")
         return render_template('error.html', message=str(e)), 500
 
     if path.startswith('eventos/'):
         last_folder_name = os.path.basename(os.path.normpath(path))
-        return render_template('event_details.html', folders=folders, files=files, video=video_file, event_folder=last_folder_name, current_path=path)
+        return render_template('event_details.html', folders=folders, files=files, event_folder=last_folder_name, current_path=path)
 
     return render_template('index.html', folders=folders, files=files, current_path=path)
 
@@ -81,23 +80,18 @@ def list_items(prefix=''):
     folders = natsorted(folders, key=lambda x: x['name'])
 
     files = []
-    video_file = None
     for obj in response.get('Contents', []):
         if not obj['Key'].endswith('/'):
             file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
             file_info = {
                 'name': os.path.basename(obj['Key']),
                 'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
-                'is_video': obj['Key'].lower().endswith('.mp4'),
                 'url': file_url,
             }
-            if file_info['is_video']:
-                video_file = file_info
-            else:
-                files.append(file_info)
+            files.append(file_info)
     
     files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
-    return folders, files, video_file
+    return folders, files
 
 def load_cache():
     try:

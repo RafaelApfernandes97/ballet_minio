@@ -64,19 +64,6 @@
     </div>
 
     <div class="content-container">
-        {% if video %}
-        <div class="video_container video-container item container_item" data-id="{{ video['key'] }}" data-name="{{ video['name'] }}" data-image-path="{{ video['url'] }}">
-            <video class="video_box" controls controlsList="nodownload">
-                <source src="{{ video.url }}" type="video/mp4">
-                Seu navegador não suporta a tag de vídeo.
-            </video>
-            <label class="select-label">
-                <input type="checkbox" class="select-checkbox" onclick="toggleSelection(this.parentElement.parentElement, '{{ video['key'] }}', '{{ video['name'] }}');">
-                Selecionar vídeo
-            </label>
-            <div class="checkmark" style="display: none;"></div>
-        </div>
-        {% endif %}
 
         <div id="subfolders">
             {% for folder in folders %}
