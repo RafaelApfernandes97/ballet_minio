@@ -19,9 +19,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Carregar credenciais do ambiente
-endpoint_url = os.environ.get('MINIO_ENDPOINT')
-aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID')
-aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
+endpoint_url = os.environ.get('endpoint_url')
+aws_access_key_id = os.environ.get('aws_access_key_id')
+aws_secret_access_key = os.environ.get('aws_secret_access_key')
 
 # Configuração do cliente MinIO
 s3 = boto3.client(
