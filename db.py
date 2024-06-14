@@ -17,6 +17,7 @@ class Compra(db.Model):
     imagens_selecionadas = db.Column(db.Text, nullable=False)
     total = db.Column(db.Float, nullable=False)
     data_compra = db.Column(db.DateTime, default=datetime.utcnow)
+    nome_evento = db.Column(db.String(100), nullable=False)  # Novo campo para o nome do evento
 
 def init_db(app):
     db.init_app(app)

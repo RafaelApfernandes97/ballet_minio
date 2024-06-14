@@ -12,6 +12,32 @@
         .table-responsive {
             margin-top: 20px;
         }
+        .table th, .table td {
+            vertical-align: middle;
+            text-align: center;
+        }
+        .table thead th {
+            background-color: #007bff;
+            color: white;
+        }
+        .form-control {
+            width: auto;
+            display: inline-block;
+        }
+        .btn-primary {
+            margin-top: 5px;
+        }
+        .filter-form {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .filter-form .form-group {
+            flex: 1;
+        }
+        .filter-form button {
+            flex: 0 0 auto;
+        }
     </style>
 </head>
 <body>
@@ -33,6 +59,7 @@
                 <thead>
                     <tr>
                         <th>ID</th>
+                        <th>Nome do Evento</th> <!-- Novo cabeçalho para o nome do evento -->
                         <th>Nome</th>
                         <th>CPF</th>
                         <th>Email</th>
@@ -45,12 +72,14 @@
                         <th>Imagens Selecionadas</th>
                         <th>Total</th>
                         <th>Data da Compra</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
                     {% for compra in compras %}
                     <tr>
                         <td>{{ compra.id }}</td>
+                        <td>{{ compra.nome_evento }}</td> <!-- Nova coluna para o nome do evento -->
                         <td>{{ compra.nome }}</td>
                         <td>{{ compra.cpf }}</td>
                         <td>{{ compra.email }}</td>
@@ -63,6 +92,7 @@
                         <td>{{ compra.imagens_selecionadas }}</td>
                         <td>R$ {{ '%.2f'|format(compra.total) }}</td>
                         <td>{{ compra.data_compra.strftime('%d/%m/%Y %H:%M:%S') }}</td>
+                        
                     </tr>
                     {% endfor %}
                 </tbody>

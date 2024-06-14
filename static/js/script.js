@@ -356,7 +356,8 @@ function sendToWhatsApp() {
         cidade: cidade,
         estado: estado,
         imagens_selecionadas: imageNames,
-        total: parseFloat(totalValue)
+        total: parseFloat(totalValue),
+        nome_evento: currentFolderName // Inclui o nome do evento
     };
 
     fetch('/finalizar-compra', {

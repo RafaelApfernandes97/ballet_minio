@@ -217,7 +217,8 @@ def finalizar_compra():
         cidade=data['cidade'],
         estado=data['estado'],
         imagens_selecionadas=', '.join(data['imagens_selecionadas']),
-        total=data['total']
+        total=data['total'],
+        nome_evento=data['nome_evento']  # Inclui o nome do evento
     )
     
     try:
@@ -227,9 +228,7 @@ def finalizar_compra():
     except Exception as e:
         db.session.rollback()
         return jsonify({"status": "error", "message": str(e)}), 500
-    
-    
-    
+
     
     
     
