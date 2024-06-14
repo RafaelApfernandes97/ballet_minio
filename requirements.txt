@@ -8,3 +8,4 @@ Flask_Toastr==0.5.8
 natsort==8.4.0
 py_vapid==1.9.1
 Requests==2.32.3
+gunicorn==22.0.0
