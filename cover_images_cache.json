@@ -1018,5 +1018,453 @@
     "eventos/13 Dance In Campos Pavarini/09-06 Domingo/COREOGRAFIA 99/": {
         "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/13%20Dance%20In%20Campos%20Pavarini/09-06%20Domingo/COREOGRAFIA%2099/B99%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240610T135727Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=29e30c9a5619b718f22eb47ba9f70e48e8de95f3c887ae1d2d029fe88eafb79e",
         "timestamp": 1718027847.8720007
+    },
+    "eventos/14 Tabo\u00e3o Fest Dance Campos do Jord\u00e3o/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/14%20Tabo%C3%A3o%20Fest%20Dance%20Campos%20do%20Jord%C3%A3o/Novo%20logo%20BEF%20%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T212948Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=65610012083cc08d1a21ad264a9f2beed0ad27b8f0ab28cff3095d4fddc1c1d5",
+        "timestamp": 1718400588.9510424
+    },
+    "eventos/15 Pl\u00ede Dance Festival/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/15%20Pl%C3%ADe%20Dance%20Festival/Novo%20logo%20BEF%20%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T212949Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=80f04a9c5c6690eacf88f374abbe99515c6c20ecf1296a48bd639df03363070d",
+        "timestamp": 1718400589.1829526
+    },
+    "eventos/2023 - V Dance in Campos - Pavarini produ\u00e7\u00f5es/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/2023%20-%20V%20Dance%20in%20Campos%20-%20Pavarini%20produ%C3%A7%C3%B5es/COREOGRAFIA%201/IMG_0003.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T212951Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1d8a8f986e43687b51fd04340a24bc1f6ff933c4a3c2f4fe7a5868cd9f56c035",
+        "timestamp": 1718400591.015581
+    },
+    "eventos/2023 Engenharia da dan\u00e7a/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/2023%20Engenharia%20da%20dan%C3%A7a/-%20BASTIDORES/B%20%281-1%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T212952Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3a056c93908d43edb6e762c68cad255640942b629b4ba4865cc663cb95e7805c",
+        "timestamp": 1718400592.064233
+    },
+    "eventos/2023 Petipa/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/2023%20Petipa/COREOGRAFIA%201/1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T212953Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=27b3098432f2334609ade871cb94566ae21924fd52d8218455b2991f325c4bd4",
+        "timestamp": 1718400593.0360563
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/04\u00ba dia - 05-05 domingo/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/04%C2%BA%20dia%20-%2005-05%20domingo/COREOGRAFIA%2001/1D%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T212958Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=298fc8cfbeba5f27227835d236fb42770be92c32cb8cc4aa7f9b9bf6f5502d19",
+        "timestamp": 1718400598.9360187
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2001/01A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T212959Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=eb638af8ff15a9789efb2983aa888f2c732e8180cab7234720136a8b83f343ad",
+        "timestamp": 1718400599.802456
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/2\u00ba dia - 28-04 domingo/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/2%C2%BA%20dia%20-%2028-04%20domingo/COREOGRAFIA%2001/01B%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e1d5a193fb37eec96db5b90dfb4f928ad6b21e23ce70362fe9255da806836df2",
+        "timestamp": 1718400600.5241258
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/3\u00ba dia - 04-05 s\u00e1bado/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/3%C2%BA%20dia%20-%2004-05%20s%C3%A1bado/COREOGRAFIA%2001/01C%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213001Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=300782c24d1cc90ae03fb6af0d27ca9146d16ad8c0411346267cd4e363306dca",
+        "timestamp": 1718400601.5224812
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 01/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2001/01A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213005Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=210e9bc491e60e68f4873d8ac563f25d9d43a597c20675ed666e7ae52726f786",
+        "timestamp": 1718400605.4870734
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 02/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2002/02A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213005Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=def1c72c12a7694e5e78d8b43399b204ac40384382decb3140127187f00785ef",
+        "timestamp": 1718400605.7241778
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 03/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2003/03A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213005Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ee33a50d7ad382412fe9dea84e9df06f15809bcaaa2130b4f1711612ebe72f33",
+        "timestamp": 1718400605.9608052
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 04/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2004/04A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8a4bc9f54dc397b596dbefd8e4b7fb68433406411748ed162544b0b23f1ffa37",
+        "timestamp": 1718400606.1960752
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 05/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2005/05A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4f110a8dcb2da77d2ecd647e0c3b18f17ff365526cd91c7d63939edc961d71e3",
+        "timestamp": 1718400606.4294758
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 06/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2006/06A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3881ebb63d4947fec28ec3afb8d661f244c62ba365baf39aae49b91c6ee4221e",
+        "timestamp": 1718400606.6655052
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 07/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2007/07A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6bf17de0e454e98056a771e78bc059b7e59eb0a787d630e96885858055a551a2",
+        "timestamp": 1718400606.8989456
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 08/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2008/08A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213007Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e07e9dc99b6fe294308216b5e9f85d8565391f1de081e33ea6a20a57ed48b3d3",
+        "timestamp": 1718400607.1415524
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 09/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2009/09A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213007Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4b1eb1b26c55986b1f71e29b98f26b58cf17fb72a8652ad500df964b818bb0db",
+        "timestamp": 1718400607.3774052
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 10/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2010/10A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213007Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6191cea89803660236f2213fc17bc59724dfab9078a47d57e5326005ad73aae4",
+        "timestamp": 1718400607.6292388
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 100/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%20100/100A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213007Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d8f3103e609d7832b51e6537cf6fca59c4ccc5ac2996185f54cebcb56dc33dd5",
+        "timestamp": 1718400607.8696926
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 101/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%20101/101A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213008Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=abfbe573a11614b8b9a2969d552401aec77ae67b7c78239d6e745dbe125b0ca2",
+        "timestamp": 1718400608.1121788
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 102/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%20102/102A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213008Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ab799224dd71316b52417feb8d17d7431ec4a412dd75d689ac3a4d615c56d18b",
+        "timestamp": 1718400608.3468852
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 103/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%20103/103A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213008Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=19b32274d1add0b143938401a035aad4ef449be4fbdb01e839cef1d1a11e7c6b",
+        "timestamp": 1718400608.5986147
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 11/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2011/11A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213008Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c007a27c5afce0ec201f903b0f6db25a17b2ad1b48c7789d78f755b1d5a06f9e",
+        "timestamp": 1718400608.8339617
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 12/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2012/12A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213009Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ffb671fa42634ae47b2c784602897deda72b09e30b6c5f142898309e8989f8f1",
+        "timestamp": 1718400609.0748906
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 13/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2013/13A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213009Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d4aedd5bdae3ce17b3436bd008bd301d54807a2c6a8f829147199857567aea89",
+        "timestamp": 1718400609.310111
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 14/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2014/14A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213009Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4dcb043761d8d7efc587dcdb297efc4a0e02116929c577b393273dfdeb43afd9",
+        "timestamp": 1718400609.5564933
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 15/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2015/15A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213009Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4eb69b7e69b247e0bb136ed8085f5f85bbe7ba031eda608f682e53105136db4",
+        "timestamp": 1718400609.8047366
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 16/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2016/16A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213010Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4d25e399f5df9ad888ad9d773c9e2693bac661e53572dcaf3c758b0934666b84",
+        "timestamp": 1718400610.040587
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 17/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2017/17A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213010Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=aa150d5fc502f709f01d14ab49f9bf851f8f4dc77d0178d8246968dc6045c625",
+        "timestamp": 1718400610.2812936
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 18/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2018/18A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213010Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ed7cd0b1c46a893add56eb005cddf1ffb17e760b023494f8a4f2653d4cdd3358",
+        "timestamp": 1718400610.5334003
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 19/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2019/19A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213010Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ec98f5e761e2325db6a3d307fbb55eba65013929bbf1e7f12f36ce163df95532",
+        "timestamp": 1718400610.783286
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 20/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2020/20A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213011Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=725725ae6e6aa99ee51d606a654d34beb514099c79d8cdbe22fc1819bfbc9a75",
+        "timestamp": 1718400611.0456674
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 21/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2021/21A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213011Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dbcfe86729a042fd3b24e792a23667274b5181ab29a981daddfb5f384502d4f4",
+        "timestamp": 1718400611.2817914
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 22/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2022/22A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213011Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4b1a7a48787159bd8cfa4474c2c2b72f619af43390364de29340c8471d58bdc5",
+        "timestamp": 1718400611.5229561
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 23/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2023/23A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213011Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=11c3c93dfd1de1c5d68e13fd83d630917261e4947ebf947f3a5c58b5a98f244c",
+        "timestamp": 1718400611.7867267
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 24/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2024/24A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=483eeb1e8c938db95918db1cc5610de6c3630def5b16703cff0deeebbe701a91",
+        "timestamp": 1718400612.0638783
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 25/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2025/25A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8cd3d66476ebf0842534f3d9494160732be56a863dbd8b0527925729b126c965",
+        "timestamp": 1718400612.3237615
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 26/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2026/26A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2a2ea903cb742360eee75afa516010f49016cf7624079d1fef925279c386a483",
+        "timestamp": 1718400612.5788255
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 27/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2027/27A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213012Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=881763447ff8e22d39d856315e920c1ed1d1cc958e99a95d25f1b0ac5929658d",
+        "timestamp": 1718400612.822869
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 28/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2028/28A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213013Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=adc66a73fd61553c5260f8fb0c3e16d4ccc4a45ec679c22d9834693a3578779e",
+        "timestamp": 1718400613.0733593
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 29/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2029/29A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213013Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6610825cbe1c6bdaf413e16f8eb1ae7fbb44b84d25af3c2beb0e0ec55b6c5c5d",
+        "timestamp": 1718400613.325646
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 30/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2030/30A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213013Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8e76ba93551f5a3a8dd0c6f775440eb9495bee25f2b2da5812c92f4363353434",
+        "timestamp": 1718400613.599429
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 31/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2031/31A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213013Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fe939dda76905e0bae58045c371a98cfb13e15d64123a091da5a434e928f8c6f",
+        "timestamp": 1718400613.886854
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 32/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2032/32A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213014Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=92066d6d68e50bcf691b9afcd4e7c09bfd68362563481296d931cbf610ff62e2",
+        "timestamp": 1718400614.1792479
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 33/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2033/33A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213014Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=88af145d6569a061afea3faa81f758e9e3d5bab9a1570807cca063d1a2721fd2",
+        "timestamp": 1718400614.42879
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 34/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2034/34A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213014Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bcf2ab0c6c2dffdf4017276f5fe84bd2f7b1cdf9716b0f6183fd2b7ddf3b8d0c",
+        "timestamp": 1718400614.6925206
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 35/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2035/35A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213014Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=be444b5731a6e556bcfd0362da6c9f28298c6f3384ad6eda5dc0031279837505",
+        "timestamp": 1718400614.952063
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 36/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2036/36A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213015Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1d7dad815ad6865d495c53e26ed35cb2f1ba89f5e37fdc37ed75e24bcc26b41c",
+        "timestamp": 1718400615.2230778
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 37/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2037/37A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213015Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d93f72576f2c62912e7c070f680486f110b2f95a8d197cfce7e45cff27030c89",
+        "timestamp": 1718400615.4705026
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 38/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2038/38A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213015Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c0b05c8b270bf0393d272980fa8595921137afb544b6ce8f4482d23d3f94d1b4",
+        "timestamp": 1718400615.7352474
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 39/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2039/39A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213015Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e15636be819920c3cdd5b26b507de9432aea82e27159abf46489e4be69f518a3",
+        "timestamp": 1718400615.9930084
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 40/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2040/40A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213016Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=59e4ed8e7f2e6da9320be5480011033589be3e237305f7a8ce978fc530f82674",
+        "timestamp": 1718400616.248324
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 41/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2041/41A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213016Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3bb4c2be6117cf609aa22154aa673ffbde17fbcbff5aad90b51683cf52922a9a",
+        "timestamp": 1718400616.5093417
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 42/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2042/42A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213016Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=07e7424c602b62c9525d183e4f1d87a0b52ece7244de313a8c64f7f7e02d21a2",
+        "timestamp": 1718400616.7825184
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 43/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2043/43A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213017Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1b1effed6549636c6141d7975d5df68662fd6f6663a38c96abce445149763eee",
+        "timestamp": 1718400617.0424128
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 44/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2044/44A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213017Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5836536632fcd17536da9d045d14d5e6f31ceecb42728fd9aa23e814cd20edc6",
+        "timestamp": 1718400617.3220928
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 45/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2045/45A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213017Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e086cd8ab69aed0036fe8aadbb43391bd842d62c2a52ad1a01e4ebe2362a0e45",
+        "timestamp": 1718400617.598838
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 46/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2046/46A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213017Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cdc2756180a7a1752f09ffc01f639bc9d92fdd3a1b8b152e54d3a00559935fab",
+        "timestamp": 1718400617.8708048
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 47/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2047/47A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=871b5cf3840538f974e4a53b07ed546d8d499c626a0eacb1ed504ad7f85f8d2e",
+        "timestamp": 1718400618.1349683
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 48/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2048/48A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e58afc445ca4f58b288a5446a759f724f5cba57ba63f99d8b5556ce42d99285e",
+        "timestamp": 1718400618.4118674
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 49/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2049/49A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=421c3551a5c506853fb7dc0faee2254ea5df2c49a0b972e053268502e3bb79d2",
+        "timestamp": 1718400618.6939425
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 50/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2050/50A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8cdb608da5f3aac543b80c24d7c90ea5dd63e090c2bb9da313ea818ab9bb71db",
+        "timestamp": 1718400618.9415987
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 51/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2051/51A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213019Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=60a2659c75d557f3bb76f4afda87779be4b2f88156903cf1f61a5b07ca334ed2",
+        "timestamp": 1718400619.211064
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 52/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2052/52A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213019Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fd62cbec005d7b2c0fe972d1622bfe7675aa6a7a52ec0a0a1d5804c55796b9a6",
+        "timestamp": 1718400619.4626887
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 53/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2053/53A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213019Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=62096754479abbb10e22ca8b0c27dbc2ae21959f32807a98acc7e5826d0d3472",
+        "timestamp": 1718400619.7187228
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 54/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2054/54A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213019Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=07ee72772440b0a8377c21ed87b4b606afad25ca9da3779ee08cf487df3f987d",
+        "timestamp": 1718400619.9969118
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 55/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2055/55A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213020Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=05f0e2da1d51c5ee1cf0a7961c641f9a001e54f883b0552a6617de4b6f1f13e1",
+        "timestamp": 1718400620.2612095
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 56/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2056/56A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213020Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=83e6fc20caf2c6874ac84e2d00e3fcc5d18b9d430ed9b5923cbe89cf36fdad01",
+        "timestamp": 1718400620.5471065
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 57/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2057/57A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213020Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=23a88ec88cfcd7fb1ab447d03a326d901c77c41ccc25a43375cf257cefc8b1a0",
+        "timestamp": 1718400620.8132834
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 58/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2058/58A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213021Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=07680f91826e5407e3481ee2d856a290f365a702989bdf6f42eca9fcf4543e41",
+        "timestamp": 1718400621.0837173
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 59/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2059/59A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213021Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fa3dac098f987bfe84fb90dd8f44463959f2e4fcfc80df86a09004245adaf355",
+        "timestamp": 1718400621.3491423
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 60/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2060/60A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213021Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=778dd292efb56ce191919f6e3e127fb40dafb14d30c19e97fce114ab283b65c4",
+        "timestamp": 1718400621.6317601
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 61/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2061/61A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213021Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fd8df88863c20707f7f9adba7b15e83107f667e2cf65b7afd273ae16a211dcd3",
+        "timestamp": 1718400621.879674
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 62/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2062/62A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213022Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b63505084b4ea4dedecbb787fc67ff899cfb79d92c01dff0b2eaffa593e71b77",
+        "timestamp": 1718400622.1846867
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 63/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2063/63A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213022Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f2674f019e9e90ada844413659764f69a0f2bbc2ae965ad602507eabc6d7f74d",
+        "timestamp": 1718400622.4281318
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 64/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2064/64A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213022Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448258da5e3a66a1b3a9d11dc86066a95c530cec7c70418f5de290ee8e5cc5bc",
+        "timestamp": 1718400622.6789205
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 65/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2065/65A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213022Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2e86d2428ebe11352926bef39a1f1a4178efcf718a0cee2b41d6e164e98b1cb5",
+        "timestamp": 1718400622.9995518
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 66/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2066/66A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213023Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0ff169a868eb6c28099769845f6efdca11273bb5ab0035b19983bcb718c60231",
+        "timestamp": 1718400623.2631142
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 67/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2067/67A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213023Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2ed85eea14c43a11f56d83b097b190dfaa05fb73dc2809ea959693342faeab94",
+        "timestamp": 1718400623.5153677
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 68/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2068/68A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213023Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=13cc46035e2ccd08fc32dec90b62e018f639622f504679a65cf62cc5b11bf47d",
+        "timestamp": 1718400623.7515235
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 69/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2069/69A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213023Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e731f8f7071d78707f7204cf0cbcd96cb631de47d6e6312b00995c7ff31bfb0b",
+        "timestamp": 1718400624.0000982
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 70/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2070/70A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213024Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=38975d6ef80378c6c7a7532270d7e2719431caf42e0d21354bd5b4cffb7df1da",
+        "timestamp": 1718400624.2698305
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 71/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2071/71A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213024Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=053a40012580fbd141e9f37b5c119ebb1fdf51213fed2fa5ef044d0ed13cda57",
+        "timestamp": 1718400624.522073
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 72/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2072/72A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213024Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2953c6f6a0df18c9ebcff7241b7b938fb2859869e8b7746f9aed8b1a79b54357",
+        "timestamp": 1718400624.7845886
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 73/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2073/73A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213025Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=21fa0a063e463a3d8b730a0d833db7096d124644467c12b90913c1d037627b3b",
+        "timestamp": 1718400625.03747
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 74/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2074/74A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213025Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9fb8e064f4f4156e8bd288fed0267b24e59e27628ea15c453b55f1f033675ca4",
+        "timestamp": 1718400625.3020496
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 75/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2075/75A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213025Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=afc4550c5c3e60c8f3339e2c50cb507590961743de66e7bd91c0ac0d512bfba3",
+        "timestamp": 1718400625.5747323
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 76/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2076/76A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213025Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bcda16fedcb8e87b4aa9cdf19df8e7616de1a95fe87999138f6eb4e65a0ef124",
+        "timestamp": 1718400625.829911
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 77/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2077/77A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213026Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f460d108ff048077ad470d6ced989fa9bd68169f50633d1c82e2db6e49b02287",
+        "timestamp": 1718400626.0700316
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 78/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2078/78A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213026Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=759a2a426c395025bc4a1a991f732a0d7b2a9a3aedebbe45ebb3ee6410855087",
+        "timestamp": 1718400626.3314998
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 79/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2079/79A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213026Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bc2fb47610d1e3ebb56ba54642aaa609e1c430fe208a6db091a5e9ce052474c2",
+        "timestamp": 1718400626.603794
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 80/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2080/80A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213026Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=889b47c55c7022346da2bb588b81c9e8aeaf06615afd5dc1a0d4973d6d485150",
+        "timestamp": 1718400626.8802269
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 81/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2081/81A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213027Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2f58fb0acedb674969960d60dd14d4fa0be9713bec5da968fa483cc7688341f9",
+        "timestamp": 1718400627.138507
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 82/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2082/82A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213027Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=733e6bf21a1d8bd9a28b8370969880eb85ef7dce25db65bdd9090b6e17b70cf6",
+        "timestamp": 1718400627.3901532
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 83/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2083/83A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213027Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e72e4fe471cbb5f118f4f53ebd27cad84c5e2e67d0b70db5eb7b4dd1cd9cea61",
+        "timestamp": 1718400627.64231
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 84/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2084/84A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213027Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7bf01e49744069a3f6dd3ec9dc83c6cd1a32ae5be03a5fa19ec169eacb0cf6cc",
+        "timestamp": 1718400627.897429
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 85/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2085/85%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213028Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b30a4de7c942aa5d91db47c7e60f36538dba20e1c998c3bb9099f044444e61f6",
+        "timestamp": 1718400628.206701
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 86/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2086/86A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213028Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=08cd1ae0a0eec021c8e5a212324b4e503a65386f7082358a313eaed28e017e37",
+        "timestamp": 1718400628.462052
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 87/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2087/87A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213028Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=aadd8f47005421d9380685144b3abfc7550e527506475bfcfd897fda91392260",
+        "timestamp": 1718400628.738196
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 88/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2088/88A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213029Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8c74e4f88609097ca7393a19a08d5e59a17ede6620ef42ed8b547bffe832b0ea",
+        "timestamp": 1718400629.0321765
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 89/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2089/89A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213029Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=91550170645ab55aaaa72a6097b1395d03697c6fdf1a594a92980bb00227ce17",
+        "timestamp": 1718400629.311436
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 90/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2090/90A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213029Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=111768b7cc187386e00bc647528d9cb0c695ff30bbcaba829012a14ab7d59a0f",
+        "timestamp": 1718400629.5852232
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 91/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2091/91A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213029Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ff02a91312d31eb79a0ecf8554018e3546e6ede08883fdb2bd962aa261bd50e4",
+        "timestamp": 1718400629.8466377
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 92/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2092/92A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213030Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a85fc91ac0c08ef840f2d2b4c713e4278229eb6022d5def497aaaa4d7dfabcd8",
+        "timestamp": 1718400630.120079
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 93/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2093/93A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213030Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2f7ff25c2ce8ab45bdab5bc57343cab8e6b4bbfccee87605344cc09ccaaa8fdb",
+        "timestamp": 1718400630.3602443
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 94/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2094/94A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213030Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6c206d74774aec5a2d301188aeafeb1e1028c26c6bda9bff3def93dfadba7e20",
+        "timestamp": 1718400630.624484
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 95/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2095/95A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213030Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5758eac048630296bd11e1c4c121dc308c134eddb0fbfc6c951ec5242af23458",
+        "timestamp": 1718400630.8901746
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 96/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2096/96A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213031Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1a080d5a81584709cf034218915a6c0e334399f353573aa946ecc53ac07eaa1f",
+        "timestamp": 1718400631.1458352
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 97/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2097/97A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213031Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=862be5aa2c1f6d3a0c35b5227963700e1522627a583c69b719d46638aebaaaa0",
+        "timestamp": 1718400631.3850071
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 98/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2098/98A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213031Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ac75e3a62ea2ad6c90b6420737fb07ecd248e63463f02651677bb755625cd7f0",
+        "timestamp": 1718400631.6467645
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/1\u00ba dia - 27-04 s\u00e1bado/COREOGRAFIA 99/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/1%C2%BA%20dia%20-%2027-04%20s%C3%A1bado/COREOGRAFIA%2099/99A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240614%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240614T213031Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=16a421476d6b73423f39a18ed6190094659151bdca6e89e13056848e5ef90db7",
+        "timestamp": 1718400631.9003785
     }
 }

@@ -343,32 +343,63 @@ function sendToWhatsApp() {
         }
     }
 
-    let message = `*Resumo do Pedido* \n\n`;
-    message += `*Evento*: ${currentFolderName}\n\n`;
-    message += `*Nome*: ${name}\n\n*Email*: ${email}\n\n`;
-    message += `*CPF*: ${cpf}\n\n`;
-    message += `*Endereço*: ${rua}, ${numero} - ${bairro}, ${cidade}, ${estado}, CEP: ${cep}\n\n`;
-    message += `*Imagens Selecionadas:* ${imageCount} \n ${imageNames.join(',\n ')}\n\n`;
-    message += `*Total do Pedido:* ${document.getElementById('totalValue').value}\n\n`;
+    const totalValue = document.getElementById('totalValue').value.replace('R$ ', '');
 
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/5511986879746?text=${encodedMessage}`;
-    
-    // Redireciona para o WhatsApp após 5 segundos
-    window.location.href = whatsappUrl;
+    const purchaseData = {
+        nome: name,
+        cpf: cpf,
+        email: email,
+        cep: cep,
+        rua: rua,
+        numero: numero,
+        bairro: bairro,
+        cidade: cidade,
+        estado: estado,
+        imagens_selecionadas: imageNames,
+        total: parseFloat(totalValue)
+    };
 
-    // Limpa o localStorage após redirecionar
-    setTimeout(() => {
-        console.log('Attempting to clear LocalStorage...');
-        localStorage.clear();
-        console.log('LocalStorage should now be cleared.');
+    fetch('/finalizar-compra', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(purchaseData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "success") {
+            let message = `*Resumo do Pedido* \n\n`;
+            message += `*Evento*: ${currentFolderName}\n\n`;
+            message += `*Nome*: ${name}\n\n*Email*: ${email}\n\n`;
+            message += `*CPF*: ${cpf}\n\n`;
+            message += `*Endereço*: ${rua}, ${numero} - ${bairro}, ${cidade}, ${estado}, CEP: ${cep}\n\n`;
+            message += `*Imagens Selecionadas:* ${imageCount} \n ${imageNames.join(',\n ')}\n\n`;
+            message += `*Total do Pedido:* R$ ${totalValue}\n\n`;
 
-        updateCheckmarks();
-        updateTotalValue();
-        updateImageCount();
-        updateCartDisplay();
-    }, 5000); // 5000 milissegundos = 5 segundos
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/5511986879746?text=${encodedMessage}`;
+            
+            window.location.href = whatsappUrl;
+            
+            setTimeout(() => {
+                localStorage.clear();
+                updateCheckmarks();
+                updateTotalValue();
+                updateImageCount();
+                updateCartDisplay();
+            }, 5000);
+        } else {
+            console.error('Erro ao finalizar a compra:', data.message);
+            toastr.error('Erro ao finalizar a compra. Tente novamente.');
+        }
+    })
+    .catch((error) => {
+        console.error('Erro ao finalizar a compra:', error);
+        toastr.error('Erro ao finalizar a compra. Tente novamente.');
+    });
 }
+
 
 // Adiciona um listener para o campo de CEP para autocompletar o endereço
 document.getElementById('cep').addEventListener('blur', function () {

@@ -9,12 +9,21 @@ import requests
 from flask_toastr import Toastr
 import logging
 from apscheduler.schedulers.background import BackgroundScheduler
+from db import db, init_db, Compra
+
 
 app = Flask(__name__)
 toastr = Toastr(app)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Configuração do banco de dados
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///compras.db'  # ou o URI do seu banco de dados
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# Inicializa o banco de dados
+init_db(app)
 
 # Carregar credenciais do arquivo JSON
 try:
@@ -192,6 +201,72 @@ def load_event_value_config():
 def load_config():
     global event_value_config
     return jsonify(event_value_config)
+
+@app.route('/finalizar-compra', methods=['POST'])
+def finalizar_compra():
+    data = request.get_json()
+    
+    nova_compra = Compra(
+        nome=data['nome'],
+        cpf=data['cpf'],
+        email=data['email'],
+        cep=data['cep'],
+        rua=data['rua'],
+        numero=data['numero'],
+        bairro=data['bairro'],
+        cidade=data['cidade'],
+        estado=data['estado'],
+        imagens_selecionadas=', '.join(data['imagens_selecionadas']),
+        total=data['total']
+    )
+    
+    try:
+        db.session.add(nova_compra)
+        db.session.commit()
+        return jsonify({"status": "success", "message": "Compra finalizada com sucesso!"}), 201
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"status": "error", "message": str(e)}), 500
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@app.route('/dashboard', methods=['GET', 'POST'])
+def dashboard():
+    try:
+        if request.method == 'POST':
+            nome = request.form.get('nome')
+            cpf = request.form.get('cpf')
+            if cpf:
+                cpf = cpf.replace('.', '').replace('-', '')
+            query = Compra.query
+            if nome:
+                query = query.filter(Compra.nome.like(f"%{nome}%"))
+            if cpf:
+                query = query.filter(db.func.replace(db.func.replace(Compra.cpf, '.', ''), '-', '').like(f"%{cpf}%"))
+            compras = query.all()
+        else:
+            compras = Compra.query.all()
+        return render_template('dashboard.html', compras=compras)
+    except Exception as e:
+        logger.error(f"Erro ao carregar o dashboard: {e}")
+        return render_template('error.html', message=str(e)), 500
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == '__main__':
     load_event_value_config()
