@@ -68,7 +68,40 @@ def index(path):
 
     return render_template('index.html', folders=folders, files=files, current_path=path)
 
+# def list_items(prefix=''):
+#     try:
+#         response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
+#     except Exception as e:
+#         logger.error(f"Erro ao listar objetos do bucket {bucket_name} com prefixo {prefix}: {e}")
+#         raise
+
+#     folders = []
+#     for folder in response.get('CommonPrefixes', []):
+#         folder_path = folder['Prefix']
+#         folder_name = os.path.basename(os.path.normpath(folder_path))
+#         cover_image_url = get_cover_image(folder_path)
+#         folders.append({'name': folder_name, 'cover_image_url': cover_image_url})
+    
+#     folders = natsorted(folders, key=lambda x: x['name'])
+
+#     files = []
+#     for obj in response.get('Contents', []):
+#         if not obj['Key'].endswith('/'):
+#             file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
+#             file_info = {
+#                 'name': os.path.basename(obj['Key']),
+#                 'is_image': obj['Key'].lower().endswith(('.png', '.webp', '.jpg', '.jpeg', '.gif')),
+#                 'url': file_url,
+#             }
+#             files.append(file_info)
+    
+#     files = natsorted(files, key=lambda x: x['name'] if x['is_image'] else float('inf'))
+#     return folders, files
+
 def list_items(prefix=''):
+    # Remova barras duplas do prefixo
+    prefix = prefix.replace('//', '/')
+
     try:
         response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix, Delimiter='/')
     except Exception as e:
@@ -86,6 +119,10 @@ def list_items(prefix=''):
 
     files = []
     for obj in response.get('Contents', []):
+        # Ignore arquivos com nomes problemáticos
+        if obj['Key'].lower().endswith(('sitemap.xml', 'robots.txt')):
+            continue
+
         if not obj['Key'].endswith('/'):
             file_url = s3.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': obj['Key']}, ExpiresIn=3600)
             file_info = {
