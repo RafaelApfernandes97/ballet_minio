@@ -8,6 +8,7 @@ class Compra(db.Model):
     nome = db.Column(db.String(100), nullable=False)
     cpf = db.Column(db.String(11), nullable=False)
     email = db.Column(db.String(100), nullable=False)
+    telefone = db.Column(db.String(15), nullable=False)  # Novo campo para o telefone
     cep = db.Column(db.String(8), nullable=False)
     rua = db.Column(db.String(100), nullable=False)
     numero = db.Column(db.String(10), nullable=False)

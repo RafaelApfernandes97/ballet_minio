@@ -320,7 +320,7 @@ function displaySuccessNotification() {
 
 function sendToWhatsApp() {
     const name = document.getElementById('name') ? document.getElementById('name').value : '';
-    const phone = document.getElementById('phone') ? document.getElementById('phone').value : '';
+    const phone = document.getElementById('telefone') ? document.getElementById('telefone').value : ''; // Atualizado para capturar o telefone
     const email = document.getElementById('email') ? document.getElementById('email').value : '';
     const cpf = document.getElementById('cpf') ? document.getElementById('cpf').value : '';
     const rua = document.getElementById('rua') ? document.getElementById('rua').value : '';
@@ -347,6 +347,7 @@ function sendToWhatsApp() {
 
     const purchaseData = {
         nome: name,
+        telefone: phone, // Incluindo o campo telefone
         cpf: cpf,
         email: email,
         cep: cep,
@@ -373,6 +374,7 @@ function sendToWhatsApp() {
             let message = `*Resumo do Pedido* \n\n`;
             message += `*Evento*: ${currentFolderName}\n\n`;
             message += `*Nome*: ${name}\n\n*Email*: ${email}\n\n`;
+            message += `*Telefone*: ${phone}\n\n`; // Incluindo telefone na mensagem do WhatsApp
             message += `*CPF*: ${cpf}\n\n`;
             message += `*Endereço*: ${rua}, ${numero} - ${bairro}, ${cidade}, ${estado}, CEP: ${cep}\n\n`;
             message += `*Imagens Selecionadas:* ${imageCount} \n ${imageNames.join(',\n ')}\n\n`;
@@ -400,6 +402,7 @@ function sendToWhatsApp() {
         toastr.error('Erro ao finalizar a compra. Tente novamente.');
     });
 }
+
 
 
 // Adiciona um listener para o campo de CEP para autocompletar o endereço

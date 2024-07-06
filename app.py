@@ -243,10 +243,14 @@ def load_config():
 def finalizar_compra():
     data = request.get_json()
     
+    if 'telefone' not in data:
+        return jsonify({"status": "error", "message": "Telefone é obrigatório."}), 400
+    
     nova_compra = Compra(
         nome=data['nome'],
         cpf=data['cpf'],
         email=data['email'],
+        telefone=data['telefone'],  # Novo campo para o telefone
         cep=data['cep'],
         rua=data['rua'],
         numero=data['numero'],
@@ -265,6 +269,7 @@ def finalizar_compra():
     except Exception as e:
         db.session.rollback()
         return jsonify({"status": "error", "message": str(e)}), 500
+
 
     
     

@@ -59,10 +59,11 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Nome do Evento</th> <!-- Novo cabeçalho para o nome do evento -->
+                        <th>Nome do Evento</th>
                         <th>Nome</th>
                         <th>CPF</th>
                         <th>Email</th>
+                        <th>Telefone</th> <!-- Nova coluna para o telefone -->
                         <th>CEP</th>
                         <th>Rua</th>
                         <th>Número</th>
@@ -72,17 +73,17 @@
                         <th>Imagens Selecionadas</th>
                         <th>Total</th>
                         <th>Data da Compra</th>
-                        
                     </tr>
                 </thead>
                 <tbody>
                     {% for compra in compras %}
                     <tr>
                         <td>{{ compra.id }}</td>
-                        <td>{{ compra.nome_evento }}</td> <!-- Nova coluna para o nome do evento -->
+                        <td>{{ compra.nome_evento }}</td>
                         <td>{{ compra.nome }}</td>
                         <td>{{ compra.cpf }}</td>
                         <td>{{ compra.email }}</td>
+                        <td>{{ compra.telefone }}</td> <!-- Nova coluna para o telefone -->
                         <td>{{ compra.cep }}</td>
                         <td>{{ compra.rua }}</td>
                         <td>{{ compra.numero }}</td>
@@ -92,10 +93,11 @@
                         <td>{{ compra.imagens_selecionadas }}</td>
                         <td>R$ {{ '%.2f'|format(compra.total) }}</td>
                         <td>{{ compra.data_compra.strftime('%d/%m/%Y %H:%M:%S') }}</td>
-                        
                     </tr>
                     {% endfor %}
                 </tbody>
+                
+                
             </table>
         </div>
     </div>
