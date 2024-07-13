@@ -194,7 +194,9 @@ function updateTotalValue() {
     console.log('Calculando valor para:', event_folder_name, 'com tipo de valor:', valueType);
 
     // Calcula o preço por imagem
-    if (valueType === 'tabela02') {
+    if (valueType === 'joinville') {
+        pricePerImage = 25.00;
+    } else if (valueType === 'tabela02') {
         if (imageCount >= 1 && imageCount <= 9) {
             pricePerImage = 25.00;
         } else if (imageCount >= 10 && imageCount <= 19) {
@@ -227,6 +229,7 @@ function updateTotalValue() {
         document.getElementById('totalValue').value = 'R$ 0.00';
     }
 }
+
 
 function updateImageCount() {
     let count = 0;
