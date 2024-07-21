@@ -1,4 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 import boto3
 from botocore.client import Config
 import json
@@ -9,8 +11,7 @@ import requests
 from flask_toastr import Toastr
 import logging
 from apscheduler.schedulers.background import BackgroundScheduler
-from db import db, init_db, Compra
-
+from db import db, Compra
 
 app = Flask(__name__)
 toastr = Toastr(app)
@@ -22,8 +23,9 @@ logger = logging.getLogger(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///compras.db'  # ou o URI do seu banco de dados
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-# Inicializa o banco de dados
-init_db(app)
+# Inicializa o banco de dados e as migrações
+db.init_app(app)
+migrate = Migrate(app, db)
 
 # Carregar credenciais do arquivo JSON
 try:
@@ -298,6 +300,77 @@ def dashboard():
         logger.error(f"Erro ao carregar o dashboard: {e}")
         return render_template('error.html', message=str(e)), 500
 
+
+
+@app.route('/festivais', methods=['GET', 'POST'])
+def festivais():
+    try:
+        query = Compra.query.filter(Compra.nome_evento == "Festival de Dança de Joinville")
+        if request.method == 'POST':
+            nome = request.form.get('nome')
+            cpf = request.form.get('cpf')
+            if cpf:
+                cpf = cpf.replace('.', '').replace('-', '')
+            if nome:
+                query = query.filter(Compra.nome.like(f"%{nome}%"))
+            if cpf:
+                query = query.filter(db.func.replace(db.func.replace(Compra.cpf, '.', ''), '-', '').like(f"%{cpf}%"))
+        compras = query.all()
+        return render_template('festivais.html', compras=compras)
+    except Exception as e:
+        logger.error(f"Erro ao carregar os festivais: {e}")
+        return render_template('error.html', message=str(e)), 500
+
+
+
+
+@app.route('/editar-compra/<int:id>', methods=['GET', 'POST'])
+def editar_compra(id):
+    compra = Compra.query.get_or_404(id)
+    if request.method == 'POST':
+        try:
+            compra.total = request.form['total']
+            compra.status = request.form['status']
+            db.session.commit()
+            return redirect(url_for('editar_compras'))
+        except Exception as e:
+            db.session.rollback()
+            logger.error(f"Erro ao editar a compra: {e}")
+            return render_template('error.html', message=str(e)), 500
+    return render_template('editar_compra.html', compra=compra)
+
+
+
+@app.route('/editar-compras', methods=['GET', 'POST'])
+def editar_compras():
+    try:
+        query = Compra.query
+        eventos = db.session.query(Compra.nome_evento).distinct().all()
+        eventos = [evento[0] for evento in eventos]  # Extrai o nome do evento de cada tupla
+
+        if request.method == 'POST':
+            nome = request.form.get('nome')
+            cpf = request.form.get('cpf')
+            telefone = request.form.get('telefone')
+            evento = request.form.get('evento')
+            status = request.form.get('status')
+            if cpf:
+                cpf = cpf.replace('.', '').replace('-', '')
+            if nome:
+                query = query.filter(Compra.nome.like(f"%{nome}%"))
+            if cpf:
+                query = query.filter(db.func.replace(db.func.replace(Compra.cpf, '.', ''), '-', '').like(f"%{cpf}%"))
+            if telefone:
+                query = query.filter(Compra.telefone.like(f"%{telefone}%"))
+            if evento:
+                query = query.filter(Compra.nome_evento.like(f"%{evento}%"))
+            if status:
+                query = query.filter(Compra.status == status)
+        compras = query.all()
+        return render_template('editar_compras.html', compras=compras, eventos=eventos)
+    except Exception as e:
+        logger.error(f"Erro ao carregar as compras: {e}")
+        return render_template('error.html', message=str(e)), 500
 
 
 

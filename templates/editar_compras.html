@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Compras</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <h1 class="mb-4">Editar Compras</h1>
+        <form class="form-inline mb-3" method="POST" action="{{ url_for('editar_compras') }}">
+            <div class="form-group">
+                <label for="nome" class="mr-2">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome do cliente">
+            </div>
+            <div class="form-group">
+                <label for="cpf" class="mr-2">CPF:</label>
+                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF do cliente">
+            </div>
+            <div class="form-group">
+                <label for="telefone" class="mr-2">Telefone:</label>
+                <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone do cliente">
+            </div>
+            <div class="form-group">
+                <label for="evento" class="mr-2">Evento:</label>
+                <select class="form-control" id="evento" name="evento">
+                    <option value="">Todos</option>
+                    {% for evento in eventos %}
+                        <option value="{{ evento }}">{{ evento }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="status" class="mr-2">Status:</label>
+                <select class="form-control" id="status" name="status">
+                    <option value="">Todos</option>
+                    <option value="Pendente">Pendente</option>
+                    <option value="Pago">Pago</option>
+                    <option value="Cancelado">Cancelado</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Filtrar</button>
+            <button type="reset" class="btn btn-secondary ml-2">Limpar</button>
+            <a href="{{ url_for('editar_compras') }}" class="btn btn-danger ml-2">Redefinir</a>
+        </form>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome do Evento</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>CEP</th>
+                        <th>Rua</th>
+                        <th>Número</th>
+                        <th>Bairro</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>Imagens Selecionadas</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Data da Compra</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for compra in compras %}
+                    <tr>
+                        <td>{{ compra.id }}</td>
+                        <td>{{ compra.nome_evento }}</td>
+                        <td>{{ compra.nome }}</td>
+                        <td>{{ compra.cpf }}</td>
+                        <td>{{ compra.email }}</td>
+                        <td>{{ compra.telefone }}</td>
+                        <td>{{ compra.cep }}</td>
+                        <td>{{ compra.rua }}</td>
+                        <td>{{ compra.numero }}</td>
+                        <td>{{ compra.bairro }}</td>
+                        <td>{{ compra.cidade }}</td>
+                        <td>{{ compra.estado }}</td>
+                        <td>{{ compra.imagens_selecionadas }}</td>
+                        <td>R$ {{ '%.2f'|format(compra.total) }}</td>
+                        <td>{{ compra.status }}</td>
+                        <td>{{ compra.data_compra.strftime('%d/%m/%Y %H:%M:%S') }}</td>
+                        <td>
+                            <a href="{{ url_for('editar_compra', id=compra.id) }}" class="btn btn-warning btn-sm">Editar</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

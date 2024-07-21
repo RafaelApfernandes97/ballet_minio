@@ -19,6 +19,7 @@ class Compra(db.Model):
     total = db.Column(db.Float, nullable=False)
     data_compra = db.Column(db.DateTime, default=datetime.utcnow)
     nome_evento = db.Column(db.String(100), nullable=False)  # Novo campo para o nome do evento
+    status = db.Column(db.String(20), nullable=False, default='Pendente')  # Novo campo para status
 
 def init_db(app):
     db.init_app(app)
