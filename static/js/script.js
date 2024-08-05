@@ -195,7 +195,7 @@ function updateTotalValue() {
 
     // Calcula o preço por imagem
     if (valueType === 'joinville') {
-        pricePerImage = 25.00;
+        pricePerImage = 30.00;
     } else if (valueType === 'tabela02') {
         if (imageCount >= 1 && imageCount <= 9) {
             pricePerImage = 25.00;

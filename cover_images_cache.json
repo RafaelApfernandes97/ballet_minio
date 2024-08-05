@@ -1,402 +1,318 @@
 {
+    "eventos/Festival de Dan\u00e7a de Joinville/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T120925Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=761dca25abcdf15be27bc64da9e4bc21b364f572dfc32b9d3b862e4f9a103e99",
+        "timestamp": 1722859765.412801
+    },
+    "eventos/07 Puls'Art Festival Internacional de Dan\u00e7a (6\u00b0 EDI\u00c7\u00c3O)/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/07%20Puls%27Art%20Festival%20Internacional%20de%20Dan%C3%A7a%20%286%C2%B0%20EDI%C3%87%C3%83O%29/04%C2%BA%20dia%20-%2005-05%20domingo/COREOGRAFIA%2001/1D%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121028Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ce994dc244dec0aa390fdb6147de87abadf1bfb5863238cf216dacd3522e5ade",
+        "timestamp": 1722859828.286726
+    },
+    "eventos/08 Tabo\u00e3o Fest Dance 22\u00ba EDI\u00c7\u00c3O/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/08%20Tabo%C3%A3o%20Fest%20Dance%2022%C2%BA%20EDI%C3%87%C3%83O/01%20foto%20final/858A0033.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121028Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a2a02611d2a8e85517f2ffc60035468bb8b095780c8749165a93391827293ab7",
+        "timestamp": 1722859828.65578
+    },
+    "eventos/09 Festival Mundo Bailarinistico/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/09%20Festival%20Mundo%20Bailarinistico/COREOGRAFIA%2001/01%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121029Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d88a8f788ffac7e39281bdfff7d225c135627e50c0ba4975c8a256c1a5552a6",
+        "timestamp": 1722859829.024306
+    },
+    "eventos/11 Fidifest/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/11%20Fidifest/01-06%20S%C3%81BADO/Fidifest.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121029Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3234552fdff70d09f8b1e6f767f3194e41711ad0c13885d202815f0239f21e0a",
+        "timestamp": 1722859829.375455
+    },
+    "eventos/12 Cacondance/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/12%20Cacondance/01-06%20S%C3%81BADO/BLOCO%201/COREOGRAFIA%2001/I1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121029Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=92bb21ec2a01af963dfeeeac32ad3ffbd4138de6277bc11e06aac195e32e5b42",
+        "timestamp": 1722859829.7167435
+    },
+    "eventos/13 Dance In Campos Pavarini/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/13%20Dance%20In%20Campos%20Pavarini/08-06%20S%C3%A1bado/COREOGRAFIA%2001/A1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121030Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bf375f2c67e695dabc31ac4f9ea244ff098aafeb7a8eae8df5218f33a8a96315",
+        "timestamp": 1722859830.1429539
+    },
+    "eventos/14 Tabo\u00e3o Fest Dance Campos do Jord\u00e3o/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/14%20Tabo%C3%A3o%20Fest%20Dance%20Campos%20do%20Jord%C3%A3o/COREOGRAFIA%2001/01%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121030Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=78d2edc4b013e3bc024bbc3285ec19a3e110aa26fbd28a9017ea0974ec3a35ea",
+        "timestamp": 1722859830.5070052
+    },
+    "eventos/15 Pl\u00ede Dance Festival/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/15%20Pl%C3%ADe%20Dance%20Festival/COREOGRAFIA%2001/01%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121030Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a28b98760e96a23a985eb0fc055112c04b188caf58ad6676e19eb06d79b29d50",
+        "timestamp": 1722859830.8674266
+    },
+    "eventos/15\u00b0 Mostra Interna Tamara Lisa/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/15%C2%B0%20Mostra%20Interna%20Tamara%20Lisa/1%C2%B0%20Sess%C3%A3o/01%20Excelsior%20-%20Tel%C3%A9grafos/01%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121031Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=72c9624ca53ec9b46f3d29ca76de8be4cee8dff6b9d9f5515e2736102d044373",
+        "timestamp": 1722859831.2766454
+    },
+    "eventos/16 Sorocaba em Dan\u00e7a/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/16%20Sorocaba%20em%20Dan%C3%A7a/22-06%20S%C3%A1bado/COREOGRAFIA%2001/1A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121031Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fb801d8f0f85a767696e07e3af059d62a38dbca6b485f67ddd9eb5ca5bb87e3f",
+        "timestamp": 1722859831.7076814
+    },
+    "eventos/17 Petip\u00e1 Fest Dance - Praia Grande/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/17%20Petip%C3%A1%20Fest%20Dance%20-%20Praia%20Grande/COREOGRAFIA%2001/1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121032Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=92ffcef63caa4909cf0a82c4e78e0d2c4053738535bd3e0461f3a962e2cef1a4",
+        "timestamp": 1722859832.10289
+    },
+    "eventos/18 Festival Ballarte/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2001/1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121032Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=15843e51054b3fcc5d7325748f98d53b0d281286a3de35a3b8d600d0d052f629",
+        "timestamp": 1722859832.529037
+    },
+    "eventos/19 Premi\u00e9re da Dan\u00e7a - Pavarini Produ\u00e7\u00f5es/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/19%20Premi%C3%A9re%20da%20Dan%C3%A7a%20-%20Pavarini%20Produ%C3%A7%C3%B5es/COREOGRAFIA%2001/01%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121032Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a9e7fa4266fa300b66035ac512bd7b28cbae26faf5481949041e7057d95c941b",
+        "timestamp": 1722859832.8821502
+    },
     "eventos/20 - 23\u00ba Tabo\u00e3o Fest Dance/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/20%20-%2023%C2%BA%20Tabo%C3%A3o%20Fest%20Dance/Novo%20logo%20BEF%20%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T112948Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=32974823b83bf3316b10779300cd6493e9a61d0813d6d403f8e6468a31bacbc9",
-        "timestamp": 1720870188.980064
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/20%20-%2023%C2%BA%20Tabo%C3%A3o%20Fest%20Dance/COREOGRAFIA%2001/1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121033Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b78e039be0952a90484f02bf4a80d6ce2d6887f193517b76d6fc91d442b4c630",
+        "timestamp": 1722859833.2463663
+    },
+    "eventos/2023 Engenharia da dan\u00e7a/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/2023%20Engenharia%20da%20dan%C3%A7a/-%20BASTIDORES/B%20%281-1%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121033Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c9ae7cda7d0776157b5b8896c6fad7676ae8a9d02efb612d9c15aa0f700110b4",
+        "timestamp": 1722859833.6033542
     },
     "eventos/Anexo Festival do Mundo Bailarinistico/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Anexo%20Festival%20do%20Mundo%20Bailarinistico/01%20Renata%20Schneider%20-%20Expressividade%20na%20Dan%C3%A7a/1B%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T112949Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c2497a7ecc2f4a21f5faa3e260e63acfcea19aa41d737cd88a97e4181d0224a8",
-        "timestamp": 1720870189.7607286
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Anexo%20Festival%20do%20Mundo%20Bailarinistico/01%20Renata%20Schneider%20-%20Expressividade%20na%20Dan%C3%A7a/1B%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121033Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fd273b63dc9f905c136bb26ded240301c72ed0b2f4f55872c935b80724ad6d24",
+        "timestamp": 1722859833.990755
     },
     "eventos/Art American Dance - Aplauso 2024/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Art%20American%20Dance%20-%20Aplauso%202024/-%20Apresentadores%20e%20professores/A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T112950Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bbc7eabf2ad5a3aa909b3a04275b35455129b0eba39a93bf696143447804f258",
-        "timestamp": 1720870190.4949656
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Art%20American%20Dance%20-%20Aplauso%202024/-%20Apresentadores%20e%20professores/A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121034Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=24341f01e850c7b74f928cb1ebbed0aba5368eb922b6801adad78a3a886c8c63",
+        "timestamp": 1722859834.355224
     },
     "eventos/Engenharia da Dan\u00e7a - Disney 100 anos/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Engenharia%20da%20Dan%C3%A7a%20-%20Disney%20100%20anos/1%C2%BA%20ATO/01%20Abertura%20-%20Jazz%20Avan%C3%A7ado/01A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T112951Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7430e897905c6ffcae4de27f6a08e0cef8101c1a77c03d77550dd115be97a88d",
-        "timestamp": 1720870191.3179693
-    },
-    "eventos/Festival de Dan\u00e7a de Joinville/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T112951Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5eff000411479b49a2b41aaf2946982a542e67629c2efc238784ef481f83bc2c",
-        "timestamp": 1720870191.5756316
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 01/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2001/1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113054Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=74a6bec79c6294a742898ea92ec9729460ac1c6af2597771d39306407e892b89",
-        "timestamp": 1720870254.2474747
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 02/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2002/2%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113054Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=22c4ec51b4d4a68ccf9a62e6ce9b1279ac2817a35c9f1640cc6501a46469aa5c",
-        "timestamp": 1720870254.4973345
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 03/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2003/3%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113054Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c562017cf012bf33e97d41e093b90e8feeb7de7b0827b2fd0482f9c8a5035c31",
-        "timestamp": 1720870254.7465324
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 04/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2004/4%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113054Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=53fccfb4c64d72896f8fa851f64e7ea73822c67e6881052ef82589ccfbdcfa51",
-        "timestamp": 1720870254.99727
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 05/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2005/5%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113055Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8150531ca149c5d0c9f4c0b9e35df96f11f1e01c85cbc76037550e231d3ea859",
-        "timestamp": 1720870255.246295
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 06/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2006/6%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113055Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=344a1beb9d865e8d2fab55ed622da2103a6da09fa7d16c6b78d6247f8ad1ad30",
-        "timestamp": 1720870255.4943628
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 07/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2007/7%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113055Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=10746593f454a434d29d3cd5c5d8dacbd6f247a669588a0e56777091e2eaeb6b",
-        "timestamp": 1720870255.7441587
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 08/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2008/8%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113055Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=173a9b00ee887827a1de183121cd91a8ff867dbb1c060f555c8199f55c785d2d",
-        "timestamp": 1720870255.9956243
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 09/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2009/9%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113056Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=df8def7288437dfc8d68cc06e0ac3e03a6c16fffcadc8266f572edd2687cd72f",
-        "timestamp": 1720870256.252067
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 10/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2010/10%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113056Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5718df1954ab314bf804c825eeefad2165197f5f84152944fc6d1336ad93cdee",
-        "timestamp": 1720870256.5128782
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 11/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2011/11%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113056Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=18954d6988ff32701c1957ec530afb71934ed33dafac9f59ecda1921cd520220",
-        "timestamp": 1720870256.773814
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 12/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2012/12%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113057Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ca3b589b714dedfada2a5ce891c5c093ebe3f99579ebc46b1a2ee032bbde6ed8",
-        "timestamp": 1720870257.0243304
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 13/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2013/13%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113057Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=76fab1572688094a9171dbb9b06fde3f5d276f629b70fbc4debe0ca324e14832",
-        "timestamp": 1720870257.2773101
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 14/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2014/14%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113057Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e37b1daf7fd01ae61571f2a966d5c0cf6b4d8c45b589ec8eb3e5222088fab25b",
-        "timestamp": 1720870257.5324707
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 15/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2015/15%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113057Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=834ba6aea80c3c33f543f1148250a905fc061f7b25373bbd6bc9641b020bb310",
-        "timestamp": 1720870257.7829504
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 16/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2016/16%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113058Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bd3b654f1d924c504aae33af84e2eb9039169be78857a8338b39e1b4a7ff21a8",
-        "timestamp": 1720870258.0334659
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 17/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2017/17%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113058Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=edc1396f4bbc84a9a2fb777a2a2d9053ababef58be67153a0c3b69335220d892",
-        "timestamp": 1720870258.2846923
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 18/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2018/18%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113058Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f6525ac39be961f4771c0d6986c7c7a9b8f20bd8afe84246588658b5af38d691",
-        "timestamp": 1720870258.5360117
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 19/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2019/19%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113058Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7db6d61636b2588774897b8b42ade931cd9e54f8b18ccff2128cf3a6c7b28cae",
-        "timestamp": 1720870258.7869842
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 20/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2020/20%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113059Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f7ca3ccfeee4b9c68dce9f46ca5e83da5044fecddbeec29c76983edae5466295",
-        "timestamp": 1720870259.0391276
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 21/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2021/21%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113059Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e8cb1307cec951f397eff0bf973154bfe32e65287cb5063bf772d8bd05f85c37",
-        "timestamp": 1720870259.2950459
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 22/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2022/22%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113059Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=960a0b74dbfcc5301e77d58dff5440404a1f3c9f6551ba2c99c8feaa5fe2c3d8",
-        "timestamp": 1720870259.550198
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 23/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2023/23%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113059Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4b05f174fdf4de47ca32a5783e4a7087271c65f28112e1720ccdc8d0a46e1d63",
-        "timestamp": 1720870259.8005824
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 24/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2024/24%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113100Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=07bab9a1e494dc3ce15bcd7413a4231bd420809c1a7c5ca3483622c1ea8e8cd6",
-        "timestamp": 1720870260.0551262
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 25/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2025/25%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113100Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=408e6cbe4dde917d37375eecec0e87308720600cf6c9a068beca266ffa81d2f3",
-        "timestamp": 1720870260.3041263
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 26/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2026/26%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113100Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=80d87da661d7d53d5227900ca93080f460470aacd58928c2844fd8f6f76648f8",
-        "timestamp": 1720870260.5542786
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 27/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2027/27%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113100Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=563c538dc2baa79f738a04cc000103a7c8d421e10902a5272a9f19e9f74dcd01",
-        "timestamp": 1720870260.805549
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 28/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2028/28%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113101Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7e05c7f66c7fac027b920fb2cc32b1892c7cbd2b9e36a11a97595ee036576e16",
-        "timestamp": 1720870261.0547452
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 29/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2029/29%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113101Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e47248db4a7fcbcf02ca461913ae180e04f0e22eb200c85da64c9dd17bfcc8c6",
-        "timestamp": 1720870261.3040206
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 30/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2030/30%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113101Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5c812712519aae3ce19fe7fd4f60a1fcebfea8dfeb93b7eb9320288cdd199f94",
-        "timestamp": 1720870261.555857
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 31/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2031/31%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113101Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7b2081b25d89348c636a85bb4e7d723020ec284ff4cd20aa3dc5e3504f2789ff",
-        "timestamp": 1720870261.8067424
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 32/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2032/32%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113102Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e6c8b90fcee51e175455fcbdee785dd931c8075ef8d36c3a7a3d7ab994133460",
-        "timestamp": 1720870262.0571089
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 33/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2033/33%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113102Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=450a53b160530e8707b6da0f766145e7d18ac6c2525c67ffe174ec76630d567f",
-        "timestamp": 1720870262.3055577
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 34/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2034/34%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113102Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c7e2089b6519c69a35411828c0eda858004ac0252c63de06cecd91f392b6d655",
-        "timestamp": 1720870262.56421
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 35/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2035/35%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113102Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=13c639b2b6803e1279fd4640f9bea2cf249811786df8f7f47c4ccf9fd4258f42",
-        "timestamp": 1720870262.8130066
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 36/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2036/36%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113103Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=07b48adf6b2f0d8f3a11c29a324f271c3ebde858fb60735b31d3d5628d7a0468",
-        "timestamp": 1720870263.0691013
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 37/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2037/37%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113103Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f28d3e0305a2ef2b5295483ce2c347646bd43b2b5e9a877fc28a65bfc3259ae5",
-        "timestamp": 1720870263.3266025
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 38/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2038/38%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113103Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d5c0a139cc09f39d4b5bb332b2598bf9bd07e705e08155605cf3ad0e9c820141",
-        "timestamp": 1720870263.5764053
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 39/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2039/39%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113103Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=18bad3c4050052c6631342edb18370e264ab7e20002bea68cc923afe36cb03aa",
-        "timestamp": 1720870263.8294342
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 40/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2040/40%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113104Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1bd90f1cfdffbec338bb4161ba9566dd39a5e0a9b9c5d1535cac3a72a7911944",
-        "timestamp": 1720870264.0825107
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 41/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2041/41%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113104Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2a1f7bf9605bbea09f2d094b04a14de4c0666087e727d202fe94fd9d19e1c3be",
-        "timestamp": 1720870264.343513
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 42/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2042/42%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113104Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=26bea08bf5f3c39c5fcbca6f621fbd6edbb2fc5f1b9dab85a37ff28ae07d4b83",
-        "timestamp": 1720870264.5971181
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 43/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2043/43%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113104Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea97ce6b548d234bbabf91021e41dff0b0a7f9699be4b2ba846efe358e0273f2",
-        "timestamp": 1720870264.8528094
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 44/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2044/44%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1f0ff572ced9b4167c8ea2398cdffdd5545054ae95a60cf657250e94f485557f",
-        "timestamp": 1720870265.1097982
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 45/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2045/45%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=036274a6a17b2abff6ddb97f618e73ff8d8be751b3e077b2a49e1b3410a18ad6",
-        "timestamp": 1720870265.3609967
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 46/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2046/46%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3c9d7730640ce4f7704f3a8e7c11c929b0f2b1727a54034e3765bdf98da9ceb6",
-        "timestamp": 1720870265.6277459
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 47/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2047/47%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4db4d01ff6ace836cfbe3c258d31213e352ea7c3f89058d1d842757507412d56",
-        "timestamp": 1720870265.8887053
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 48/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2048/48%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113106Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c198d3dff6ca878b14d7e16854c396211a88e4937a623822778393f2dc3715cd",
-        "timestamp": 1720870266.152209
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 49/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2049/49%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113106Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=813fcdbd22ef631a2c7ca2eb383ca5a689673b05dc03a3afb3d0d99fa78be68a",
-        "timestamp": 1720870266.4207625
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 50/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2050/50%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113106Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e49e0e6e2c2a1dc5eb76702812b4450cd3e3cbfcf7c43496b82cac2cee6d3cd7",
-        "timestamp": 1720870266.668711
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 51/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2051/51%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113106Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3587d5d1ea2a02559954fd4e81bf0bcd7c419c7ca785621649ed2d835f41c96f",
-        "timestamp": 1720870266.9261672
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 52/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2052/52%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113107Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=945ca77814f7827fce9f22d51730f4bcf3570015ac70bbaa804520514dddb0d3",
-        "timestamp": 1720870267.1856432
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 53/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2053/53%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113107Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bfe258ca61e4fa6e1466080b108fadb80c6867130d46c6f7a0fcc1a22cb1e02d",
-        "timestamp": 1720870267.4609866
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 54/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2054/54%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113107Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=73b372442da5be9a87826f8cd6894bd8df7f8892d99f89861db532b5ac5098d7",
-        "timestamp": 1720870267.7418811
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 55/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2055/55%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113108Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6fe47a627e0fb39091238589e6b028cbc3e57fc29a8861e0c99ca99888aaa0e4",
-        "timestamp": 1720870268.0194318
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 56/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2056/56%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113108Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=868788f48225aa40d95e65a8772a4141bd9636ab40d27bad58eed4ee69d8172a",
-        "timestamp": 1720870268.27023
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 57/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2057/57%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113108Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1c4827c893054e294c4fdbc3a1bd8844ee754dc925952b2804de9e864d72e62b",
-        "timestamp": 1720870268.5383432
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 58/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2058/58%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113108Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=71176354b10957a900430326f56a0e50f29a706b6bde8fa54b20e009ed0999f7",
-        "timestamp": 1720870268.794921
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 59/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2059/59%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113109Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e412ecb49df71ff39acda44421f03d2e9e08e779fc633e082f3bb8a7d4b4f7f3",
-        "timestamp": 1720870269.0622065
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 60/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2060/60%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113109Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=45746d1af0da879b7f06ae6da38a35f1a10ca343e9b5fc671097766bd084045a",
-        "timestamp": 1720870269.3198712
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 61/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2061/61%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113109Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4e12c171a1c872364224a3f8606fc2ad465245ece2bbbcc5d8563cfe826bd0b6",
-        "timestamp": 1720870269.5774112
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 62/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2062/62%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113109Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3a76e7771178a666a0c4abd287267b5ba36243448d60b1b19336c9bfab74645b",
-        "timestamp": 1720870269.827962
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 63/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2063/63%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113110Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2448fab5a34a8e4f3fb96b40ce74c9cf5332fa8900ddf6b876dfcbadf6005e5c",
-        "timestamp": 1720870270.0815396
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 64/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2064/64%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113110Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d95b1347608015bf4940ec369b3a33b80169c2804a57688df147a93a5b88ac93",
-        "timestamp": 1720870270.3327236
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 65/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2065/65%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113110Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=754fcea311ee8c15df1c9054adab03ecb267eefc7c63b855c8d3dfaea0437988",
-        "timestamp": 1720870270.5883744
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 66/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2066/66%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113110Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6cf2bffc3ed8a68de6374c3a4e9d1a60690499db386b0087e151ed79a97ddff1",
-        "timestamp": 1720870270.8477943
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 67/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2067/67%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113111Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dd9c8bb33a4dadfae104d0fd2fd2f18b1ed398bcf3a1bd72aec0500d7ada5470",
-        "timestamp": 1720870271.1082654
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 68/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2068/68%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113111Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=50e6c06b9e6f9e483d7516dc6010137e9572dc7a4cdc2c419bcd76942a905698",
-        "timestamp": 1720870271.3786333
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 69/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2069/69%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113111Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=98fed5a42159f1731a043b1ffc8623530346918d8ffd61e9d5a8336e78f62f8b",
-        "timestamp": 1720870271.6281924
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 70/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2070/70%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113111Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=36917ff9bf6775a23524e0b4b574060435167e31bf23145f07f925a222e71789",
-        "timestamp": 1720870271.8898134
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 71/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2071/71%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113112Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f515bd90fa061669aedb51708537179e1e1c6b876134b5c52f85a5030674634",
-        "timestamp": 1720870272.1588213
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 72/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2072/72%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113112Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=295c8cec320dfac42621323b98b125f301bed33c5fb6a64b5e0c4a2b4b3b01e9",
-        "timestamp": 1720870272.4331934
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 73/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2073/73%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113112Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c6e6f91d5d47a0a2c73cd62b305b5fac667dfc442f40788800c6af248187da99",
-        "timestamp": 1720870272.698144
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 74/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2074/74%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113112Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=98b7b29fd51b369dbf42c601c20126fd0c397dc4983f7194ca96636c64be5e3f",
-        "timestamp": 1720870272.9534004
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 75/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2075/75%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113113Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=632df8de765c46189dd35536784923bcd8956b6f7d3d34965d000dd5f973eddf",
-        "timestamp": 1720870273.2194712
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 76/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2076/76%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113113Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e45a5276f3fd8a6d4e96e6036adbe97558409a4897ea9669ac1ece529c71bad9",
-        "timestamp": 1720870273.49149
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 77/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2077/77%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113113Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6fa93f1497acd4365d407272c894f21afcb599c1bcdbef272663855a43469f77",
-        "timestamp": 1720870273.7578812
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 78/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2078/78%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113114Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=99fb536678a531de0ebc9963eda68e10805770a061e1228d134eca1118f642a1",
-        "timestamp": 1720870274.017979
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 79/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2079/79%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113114Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=65cd49f0cff281da0c7832fb06f4f3236becd131e3b46a96b0d2e114acdfb6b2",
-        "timestamp": 1720870274.2935393
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 80/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2080/80%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113114Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=63c89c740da57a3bff4459f73cc3afe48e71b22130263072b81eabd7a7994faa",
-        "timestamp": 1720870274.5669973
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 81/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2081/81%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113114Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4e1e52d0adc8e0763e97674d59201a38090d6b693f6a5beecec4d6e28925b13a",
-        "timestamp": 1720870274.8637211
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 82/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2082/82%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113115Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5dcf49e9ad5561e7928843c2c4164355b473498aae066be2f2d00ae9817553b7",
-        "timestamp": 1720870275.1204696
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 83/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2083/83%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113115Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7c8d8b1e95d2f8f01259c11fc32c4d0cd72c8b7ace02e6777ee02ce335ddc0ed",
-        "timestamp": 1720870275.373171
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 84/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2084/84%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113115Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=485024046ad86de3fc061657b058cc13b4e0ea71b321caf05bac093e8edb486b",
-        "timestamp": 1720870275.6374753
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 85/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2085/85%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113115Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3527a448669c06840241dd11064d182e1353c2e4a7fa9fabef1657e0e2ee6898",
-        "timestamp": 1720870275.8975728
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 86/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2086/86%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113116Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=adace33aef98f4475f71786171070e044d570739f7b358a2a0d585530501fe79",
-        "timestamp": 1720870276.1597142
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 87/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2087/87%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113116Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4c056128295d1aa80e63f0d7120215bc5a5bf61712067d8c17ee406e27890b8",
-        "timestamp": 1720870276.435187
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 88/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2088/88%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113116Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ae59014c8d7fef5dbaa2abf389829af5549024db05b8b6feb53f79f76be43179",
-        "timestamp": 1720870276.709642
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 89/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2089/89%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113116Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ada443db053c2979a9789cb31a442ab07291bf522ec09f5334a23353ae95de42",
-        "timestamp": 1720870276.9649856
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 90/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2090/90%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113117Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7b48e143894adeb550618c4b46af2515e70781fafffb30246ebc3c1872d0bb84",
-        "timestamp": 1720870277.2330117
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 91/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2091/91%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113117Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9e654f5d9959d591216110948adf7af367bd6d8cdf7e6615c02d05b941fb8d4e",
-        "timestamp": 1720870277.4853668
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 92/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2092/92%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113117Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6f7a041217d8398c08a55e5722b3c945c1417397e583db8b48d1bced853e9d43",
-        "timestamp": 1720870277.742555
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 93/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2093/93%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113118Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2c329abb2548006453de7daae6d6672057185cc9fedb7ef6047cb586e4f6982",
-        "timestamp": 1720870278.0234663
-    },
-    "eventos/18 Festival Ballarte/COREOGRAFIA 94/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/COREOGRAFIA%2094/94%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113118Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f7814ee4546025511942f7b197b99f6249527f05c9dbca73f7342b1e42d0a97f",
-        "timestamp": 1720870278.3116539
-    },
-    "eventos/18 Festival Ballarte/PREMIA\u00c7\u00c3O BLOCO 1/": {
-        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/18%20Festival%20Ballarte/PREMIA%C3%87%C3%83O%20BLOCO%201/PB1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240713%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240713T113118Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea6fef04db2462eef6790fc61fe098629541f1321bd9063db217a820ac785b67",
-        "timestamp": 1720870278.587985
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Engenharia%20da%20Dan%C3%A7a%20-%20Disney%20100%20anos/1%C2%BA%20ATO/01%20Abertura%20-%20Jazz%20Avan%C3%A7ado/01A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121034Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a6ffcd69f2f9d819d3f82abc3882f5518112a92aa5acbe89108bdb579d70e73d",
+        "timestamp": 1722859834.7232778
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121115Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a214b24378e11c37888c60f5cd70ac0f0a65feefb526bb261559be1085ee79eb",
+        "timestamp": 1722859875.2798412
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/2 - Festival Meia Ponta/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/2%20-%20Festival%20Meia%20Ponta/2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121116Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bf01d47cc82a5cac849209fd3f80c875af2b15257b48cd38a6871b73ec38da14",
+        "timestamp": 1722859876.4199882
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/3 - Festival 40+/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/3%20-%20Festival%2040%2B/17-07%20%7C%20Quarta/3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121117Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f9c7b0b7334c05dc4a1b75d63e51ce6d16a315d6b43629d9539d4fa17e8cef9a",
+        "timestamp": 1722859877.1499002
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/4 - Festival da Sapatilha/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/4%20-%20Festival%20da%20Sapatilha/Palco%20Prac%CC%A7a/16-07%20%7C%20Terc%CC%A7a/4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121118Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8bd2e31579317e4cdc596154007317178a047acbf53ea0380a6d8625fdb5377c",
+        "timestamp": 1722859878.2212048
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/5 - Palco da Sapatilha - PA/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/5%20-%20Palco%20da%20Sapatilha%20-%20PA/15-07%20%7C%20Segunda/5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121119Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f5cbfff24f77806369989c5a166d6e1891d225e4782be1376fa1bc741e7e4354",
+        "timestamp": 1722859879.4714923
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2001/15AM1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121122Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=61cad0315c8e74316f2a5cd836bffb5a957359e4476593cd7352a21953b03e0f",
+        "timestamp": 1722859882.7408228
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/16-07 | Terc\u0327a/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/16-07%20%7C%20Terc%CC%A7a/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121124Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dfc4a34aa8cca68f8b64b07ff485b408f202b37b0b42d01015d9ccea31d77c27",
+        "timestamp": 1722859884.310841
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/17-07 | Quarta/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/17-07%20%7C%20Quarta/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121125Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bdd942b22b737a926542cef8ffba2f1fc548e9cdf2eb8dc0cd9ce09ffed222a1",
+        "timestamp": 1722859885.8017364
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/18-07 | Quinta/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/18-07%20%7C%20Quinta/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121126Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bffa7b1c86f18688f94e48ff0a69ad16ebc76f1e8e5a44a5e532220b5be73a89",
+        "timestamp": 1722859886.661508
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/19-07 | Sexta/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/19-07%20%7C%20Sexta/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121127Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6f6ccc02af6c7a5eaa14513e5a0a884724423d514d9d892439a4f667066262fb",
+        "timestamp": 1722859887.5836477
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/20-07 | Sa\u0301bado/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/20-07%20%7C%20Sa%CC%81bado/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121129Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dbae9a2f57161d539d6b175620481c612c28634840e77692cb5b0250a2722de9",
+        "timestamp": 1722859889.0776284
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/22-07 | Segunda/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/22-07%20%7C%20Segunda/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121129Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ecdfc1cf8eddba82e3ae2c4187e22467c51b1283fee3c570054137f30a81a5d8",
+        "timestamp": 1722859889.939945
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/23-07 | Terc\u0327a/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/23-07%20%7C%20Terc%CC%A7a/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121131Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f397e1fdae6a9e32e9d44cfddd82ce49e9f0d2213160336f5d4730192842b11f",
+        "timestamp": 1722859891.653749
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/24-07 | Quarta/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/24-07%20%7C%20Quarta/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121132Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4664a992cc262c430f525ff020de873f092095d66516b7691aadd81ff836299b",
+        "timestamp": 1722859892.3646019
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/25-07 | Quinta/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/25-07%20%7C%20Quinta/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121133Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e754f911517456fff94f1f5e80c11284a7a3e072223cf26ef49dc57edd7bcc8c",
+        "timestamp": 1722859893.7154284
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/26-07  Sexta/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/26-07%20%20Sexta/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121135Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d29aa634ff81eb534d3dae7e7a0900034bd1dfc068a8e0e556ef5c7d17b88d05",
+        "timestamp": 1722859895.6420672
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/27-07 | Noite dos Campeo\u0303es/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/27-07%20%7C%20Noite%20dos%20Campeo%CC%83es/1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121137Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ba86c2daf2d8af54635e849e0928ef2fe2d18f11c0d03c33be730ad0e44d4a4f",
+        "timestamp": 1722859897.0313427
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2001/15AM1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121141Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=21d59a296b88c046785c2c45b48ae8725401798955a36385efd53c5763414030",
+        "timestamp": 1722859901.4947052
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Tarde/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Tarde/COREOGRAFIA%2001/15AT1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121142Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=66dbd3f20596000be2e889a04becfc7772858af0f8079c2b62cd924723d1a869",
+        "timestamp": 1722859902.5367308
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 01/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2001/15AM1%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121144Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=be37bb58040e0fedf04cd5d05b39d88a80a9b0fbc66cac5e46a3c26010287987",
+        "timestamp": 1722859904.810181
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 02/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2002/15AM2%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121145Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5344057e2d5eb4ac2cda688c1ba60b0f0bdaac72ccbd3b929527897ba55a883e",
+        "timestamp": 1722859905.0753481
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 03/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2003/15AM3%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121145Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=740ec2699060f7b0fdc8269737a5684bf3dd6dde642d3edce53a2e70ce268c2b",
+        "timestamp": 1722859905.3274846
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 04/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2004/15AM4%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121145Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e39ead21ce7ae4afdfb861b10950307579998b35fede960b4945a8f37a174a3a",
+        "timestamp": 1722859905.5780437
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 05/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2005/15AM5%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121145Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ee543ec96b901a6035a1c8147cab66a215ef2c25c1d593149d5eb690d644d713",
+        "timestamp": 1722859905.8253064
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 06/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2006/15AM6%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121146Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ee74d01ae9357aebe4c7c7e033e1ce73456750d41d824d2ace56d301892f9c27",
+        "timestamp": 1722859906.0621886
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 07/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2007/15AM7%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121146Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=91a945d51447cebf7daf141677dcf4c521302400fb8492d4cd60be2750e46ced",
+        "timestamp": 1722859906.3057833
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 08/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2008/15AM8%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121146Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0e85b09d47b99e318483e63740fdaf981eeec1083c5f8f8b9414378ae7df2be9",
+        "timestamp": 1722859906.551038
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 09/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2009/15AM9%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121146Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=87b6dac84071693b205e5cbac146dd9b5c9b7a31aa0d3c008978672f5b9abbf7",
+        "timestamp": 1722859906.7910645
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 10/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2010/15AM10%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121147Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f61f3595283fb8bc3d6a10fea41ac48316dc243bf60b13ca0e1b0be178c69b03",
+        "timestamp": 1722859907.036992
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 11/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2011/15AM11%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121147Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4654620147a67890ce8d158b9015fe4dcf100e813361e70b28e13cd998228fcd",
+        "timestamp": 1722859907.2769167
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 12/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2012/15AM12%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121147Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1295f5cdc34572378d70b9497413f655df2203e4b43342e392c0abfcf4b77d6e",
+        "timestamp": 1722859907.5354733
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 13/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2013/15AM13%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121147Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5def7d2ab2e48b8f4ed85e267bba6b718a8142349d7d50baad6230dc4e5b905",
+        "timestamp": 1722859907.7746916
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 14/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2014/15AM14%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=683e9f335b9d00f4553d30776248aebb451c8b50d5c5c3b24aa074388c1bca8a",
+        "timestamp": 1722859908.0154204
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 15/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2015/15AM15%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=930584c6c9ebd9ed91a64cf9bf4c715f57b08e73eb009a059c74c66f6df4c55e",
+        "timestamp": 1722859908.2598908
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 16/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2016/15AM16%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2cf9b1c080c0a79851811a69c190b73151992695c9d507a3e21abd65fac6d11e",
+        "timestamp": 1722859908.5059588
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 17/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2017/15AM17%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c45d80654e3c2f7bf03f85424d16b3aeaf72b3b305602567abbfaa6f933514a0",
+        "timestamp": 1722859908.7432141
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 18/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2018/15AM18%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=40cc03bdce103efda83dbf0437e30c49a9399e44818acfce4af4df256a7a38e1",
+        "timestamp": 1722859908.9985666
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 19/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2019/15AM19%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5b9ce7382f0f640eab16e3b2e5bac1e83c3eb3d01068614cc27b5df68b728eb",
+        "timestamp": 1722859909.25018
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 20/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2020/15AM20%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=00e00426b3bdd00aa0352fc25b112e586e0cedc0abdbf87c44feb5d701cba7b1",
+        "timestamp": 1722859909.4846523
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 21/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2021/15AM21%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bf2d3b204b411e7e05293010086a2a7250333e8862d2c99a32e0c9f7cf5c8703",
+        "timestamp": 1722859909.727021
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 22/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2022/15AM22%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1429d9dbc854d333ea706f4dff4b37ae60983d750bd4c6107483242487f26830",
+        "timestamp": 1722859909.9643233
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 23/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2023/15AM23%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121150Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8ce680d0459565455ddce010cba82ac1f0bfb5d48402e7946e625a72ea1e3634",
+        "timestamp": 1722859910.244644
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 24/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2024/15AM24%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121150Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c843848692fcf899b09ea66f09b1595557eda58e66f021e18aa7e018e4962859",
+        "timestamp": 1722859910.4826798
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 25/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2025/15AM25%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121150Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=310136b1517d731d16973cb031eac4bcdfd45a11742f4fc13d84fc4a1ba4b180",
+        "timestamp": 1722859910.742709
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 26/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2026/15AM26%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121150Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3685536d5c753853de2ab6c8287c60dd5a668a9fd0ee7d88b816e28e71d93e51",
+        "timestamp": 1722859910.9788325
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 27/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2027/15AM27%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121151Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=196c85eddd726d152fcd578fe30f068f04bfcd6716dd0f0ea293b4d253798c28",
+        "timestamp": 1722859911.2297764
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 28/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2028/15AM28%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121151Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1ce4398e99a44587c8c68d855a4dcfbd5a1cce23503a79a4bceb5330988e2a50",
+        "timestamp": 1722859911.467669
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 29/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2029/15AM29%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121151Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6805ba1fa5ee03f68c2f6db3787496243c36c99b45374091d4a262a63d79abf8",
+        "timestamp": 1722859911.756941
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 30/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2030/15AM30%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121151Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bf9aafa41b264c2b26f78433bc0ee5bbd0cdcc8c39510c2482b97ef6a97a6d27",
+        "timestamp": 1722859911.993938
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 31/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2031/15AM31%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121152Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2cdde2436be8eef1488eda2ee597618be3df869a6f674e4f10f54f7c15777de0",
+        "timestamp": 1722859912.2397351
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 32/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2032/15AM32%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121152Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=82554cf06aecf7ac91c1a7f2338550089aac6de49b17f9f5971997865ff08aae",
+        "timestamp": 1722859912.4998121
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 33/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2033/15AM33%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121152Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=440ba544e411777425ab3ffd17d3d880938fcdf50754ea96f3eff6f505f11cb5",
+        "timestamp": 1722859912.7443225
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 34/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2034/15AM34%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121152Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0de7d36dc92e5f380524155301b0653b8c773151c5055cf32158ef568d2eaa2a",
+        "timestamp": 1722859912.9805427
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 35/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2035/15AM35%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=41e8e69368708df9d78f07d2d71d6be020caa93fda029a7b800dc673a6e2800d",
+        "timestamp": 1722859913.280878
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 36/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2036/15AM36%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0592cbc99aa65d3ede681124a33cb941bcd2f17ceb3aa046e6d15021bcf5e4b9",
+        "timestamp": 1722859913.5250201
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 37/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2037/15AM37%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=acfe34a2bd94d9ae51a30d153dcb8c4984b006bbd265f614fc3b93597e628e86",
+        "timestamp": 1722859913.7671359
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 38/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2038/15AM38%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121154Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=aa3f016afd6fe93c0a38c7729704d518e0110a62aae6aed285a184eb46c9c30c",
+        "timestamp": 1722859914.0310357
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 39/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2039/15AM39%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121154Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=364fce50df80e80210d8a6543b3b55414a5219c4fe0b544d503062ce331ff100",
+        "timestamp": 1722859914.28237
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 40/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2040/15AM40%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121154Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=883db0403dab01bcfa09a8ffb418c6730be961bc63993c2c689d9b0c5f76da11",
+        "timestamp": 1722859914.529423
+    },
+    "eventos/Festival de Dan\u00e7a de Joinville/1 - Mostra Competitiva/15-07 | Segunda/Seletiva Varia\u00e7\u00f5es Manh\u00e3/COREOGRAFIA 41/": {
+        "url": "https://site-ballet-minio.mj6dzq.easypanel.host/balletphotos/eventos/Festival%20de%20Dan%C3%A7a%20de%20Joinville/1%20-%20Mostra%20Competitiva/15-07%20%7C%20Segunda/Seletiva%20Varia%C3%A7%C3%B5es%20Manh%C3%A3/COREOGRAFIA%2041/15AM41%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GZ6akL2cDsl2I1Qde0xu%2F20240805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240805T121154Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=775a01844bbc4006522e23be2e80ceafbdf9f12428df69525c817320e298e294",
+        "timestamp": 1722859914.8540783
     }
 }
