@@ -205,7 +205,7 @@ function updateTotalValue() {
             pricePerImage = 20.00;
         }
     } else if (valueType === 'tabela03') {
-        pricePerImage = 20.00;
+        pricePerImage = 15.00;
     } else {
         if (imageCount >= 1 && imageCount <= 9) {
             pricePerImage = 20.00;
