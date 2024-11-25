@@ -180,42 +180,32 @@ function getCurrentSubfolder() {
 }
 
 function updateTotalValue() {
-    const event_folder_name = getCurrentSubfolder();
-    let valueType = null;
+    // Inicialize imageCount antes de usá-lo
+    let imageCount = 0;
 
-    // Encontra a tabela correta para o evento
-    for (const [tabela, eventos] of Object.entries(eventValueConfig)) {
-        if (eventos.includes(event_folder_name)) {
-            valueType = tabela; // Associa à tabela correta
-            break;
-        }
-    }
+    // Calcule a quantidade de imagens selecionadas
+    const checkboxes = document.querySelectorAll('.event-checkbox:checked');
+    imageCount = checkboxes.length;
 
-    if (!valueType) {
-        console.error(`Evento ${event_folder_name} não associado a nenhuma tabela.`);
-        valueType = 'Tabela 20'; // Padrão
-    }
+    // Obtenha o tipo de valor associado
+    const eventFolderName = getCurrentSubfolder(); // Supondo que esta função retorna o nome do evento
+    const valueType = eventValueConfig[eventFolderName] || 'Tabela 20'; // Valor padrão
 
-    console.log('Calculando valor para:', event_folder_name, 'com tipo de valor:', valueType);
+    console.log('Calculando valor para:', eventFolderName, 'com tipo de valor:', valueType);
 
-    // Lógica de preços por tabela
+    // Defina o preço por imagem com base na tabela
     let pricePerImage = 0;
-    if (valueType === 'Tabela 30FX') {
-        pricePerImage = 30.00; // Valor fixo
-    } else if (valueType === 'Tabela 25FX') {
-        pricePerImage = 25.00; // Valor fixo
-    } else if (valueType === 'Tabela 25') {
-        if (imageCount >= 1 && imageCount <= 9) {
-            pricePerImage = 25.00;
-        } else if (imageCount >= 10 && imageCount <= 19) {
-            pricePerImage = 22.50;
-        } else if (imageCount >= 20) {
-            pricePerImage = 20.00;
-        }
+
+    if (valueType === 'Tabela 25') {
+        pricePerImage = 25.00;
     } else if (valueType === 'Tabela 15FX') {
         pricePerImage = 15.00;
+    } else if (valueType === 'Tabela 30FX') {
+        pricePerImage = 30.00;
+    } else if (valueType === 'Tabela 25FX') {
+        pricePerImage = 25.00;
     } else {
-        // Default para Tabela 20
+        // Tabela 20
         if (imageCount >= 1 && imageCount <= 9) {
             pricePerImage = 20.00;
         } else if (imageCount >= 10 && imageCount <= 19) {
@@ -225,15 +215,18 @@ function updateTotalValue() {
         }
     }
 
+    // Calcule o valor total
     const totalValue = imageCount * pricePerImage;
 
-    if (!isNaN(totalValue)) {
-        document.getElementById('totalValue').value = `R$ ${totalValue.toFixed(2)}`;
-    } else {
-        console.error('Erro ao calcular o valor total.');
-        document.getElementById('totalValue').value = 'R$ 0.00';
+    // Atualize o valor total exibido
+    const totalValueElement = document.getElementById('totalValue');
+    if (totalValueElement) {
+        totalValueElement.value = `R$ ${totalValue.toFixed(2)}`;
     }
+
+    console.log('Total calculado:', totalValue);
 }
+
 
 
 
