@@ -228,25 +228,29 @@ function getCurrentSubfolder() {
 
 function updateTotalValue() {
     let imageCount = 0;
-    let videoCount = 0;
+
+    // Contagem de imagens selecionadas no localStorage
     for (let i = 0; i < localStorage.length; i++) {
         const imagePath = localStorage.key(i);
         if (localStorage.getItem(imagePath) === 'selected') {
-            if (typeof imagePath === 'string' && imagePath.toLowerCase().endsWith('.mp4')) {
-                videoCount++;
-            } else {
-                imageCount++;
-            }
+            imageCount++;
         }
     }
 
     let pricePerImage = 0;
-    const event_folder_name = getCurrentSubfolder();
-    const valueType = eventValueConfig[event_folder_name] || 'tabela01';
-    console.log('Calculando valor para:', event_folder_name, 'com tipo de valor:', valueType);
 
-    // Calcula o preço por imagem
-    if (valueType === 'tabela02') {
+    // Obtém o nome do evento atual para determinar a tabela
+    const eventFolderName = getCurrentSubfolder();
+    const valueType = eventValueConfig[eventFolderName] || 'Tabela 20'; // Padrão para Tabela 20
+
+    console.log('Calculando valor para:', eventFolderName, 'com tipo de valor:', valueType);
+
+    // Calcula o preço por imagem com base na tabela identificada
+    if (valueType === 'Tabela 30FX') {
+        pricePerImage = 30.00; // Preço fixo
+    } else if (valueType === 'Tabela 25FX') {
+        pricePerImage = 25.00; // Preço fixo
+    } else if (valueType === 'Tabela 25') {
         if (imageCount >= 1 && imageCount <= 9) {
             pricePerImage = 25.00;
         } else if (imageCount >= 10 && imageCount <= 19) {
@@ -254,9 +258,10 @@ function updateTotalValue() {
         } else if (imageCount >= 20) {
             pricePerImage = 20.00;
         }
-    } else if (valueType === 'tabela03') {
-        pricePerImage = 20.00;
-    } else {
+    } else if (valueType === 'Tabela 15FX') {
+        pricePerImage = 15.00; // Preço fixo
+    } else if (valueType === 'Tabela 20') {
+        // Preços variáveis para Tabela 20
         if (imageCount >= 1 && imageCount <= 9) {
             pricePerImage = 20.00;
         } else if (imageCount >= 10 && imageCount <= 19) {
@@ -266,40 +271,25 @@ function updateTotalValue() {
         }
     }
 
-    // Calcula o preço por vídeo
-    let pricePerVideo = 0;
-    if (valueType === 'tabela01') {
-        if (videoCount >= 1 && videoCount <= 2) {
-            pricePerVideo = 45.00;
-        } else if (videoCount >= 3 && videoCount <= 5) {
-            pricePerVideo = 40.00;
-        } else if (videoCount >= 6) {
-            pricePerVideo = 35.00;
-        }
-    } else if (valueType === 'tabela02') {
-        if (videoCount >= 1 && videoCount <= 2) {
-            pricePerVideo = 50.00;
-        } else if (videoCount >= 3 & videoCount <= 5) {
-            pricePerVideo = 45.00;
-        } else if (videoCount >= 6) {
-            pricePerVideo = 40.00;
-        }
-    }
-
-    // Certifique-se de que pricePerImage e pricePerVideo são números antes de calcular o total
+    // Garante que o preço por imagem é válido antes de calcular o total
     pricePerImage = parseFloat(pricePerImage) || 0;
-    pricePerVideo = parseFloat(pricePerVideo) || 0;
-    const totalValue = (imageCount * pricePerImage) + (videoCount * pricePerVideo);
+    const totalValue = imageCount * pricePerImage;
 
-    // Verifique se totalValue é um número válido
-    if (!isNaN(totalValue)) {
-        document.getElementById('totalValue').value = `R$ ${totalValue.toFixed(2)}`;
-        console.log('Total calculado:', totalValue);
+    // Atualiza o campo de valor total
+    const totalValueElement = document.getElementById('totalValue');
+    if (totalValueElement) {
+        if (!isNaN(totalValue)) {
+            totalValueElement.value = `R$ ${totalValue.toFixed(2)}`;
+            console.log('Total calculado:', totalValue);
+        } else {
+            console.error('Erro ao calcular o valor total. Verifique os valores de entrada.');
+            totalValueElement.value = 'R$ 0.00';
+        }
     } else {
-        console.error('Erro ao calcular o valor total. Verifique os valores de entrada.');
-        document.getElementById('totalValue').value = 'R$ 0.00';
+        console.error('Elemento #totalValue não encontrado.');
     }
 }
+
 
 function updateImageCount() {
     let count = 0;

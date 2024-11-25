@@ -1734,5 +1734,165 @@
     "eventos/01 - Petipa - 17 de Mar\u00e7o/01 - Petipa - 17 de Mar\u00e7o/COREOGRAFIA 99/": {
         "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/01%20-%20Petipa%20-%2017%20de%20Mar%C3%A7o/01%20-%20Petipa%20-%2017%20de%20Mar%C3%A7o/COREOGRAFIA%2099/99%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241124T235706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1989ba96548ff2cb18bdb5422a63f47e860b1f5de4b3506d5acdd661516073f2",
         "timestamp": 1732492626.5804288
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/- Bastidores/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/-%20Bastidores/B%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011756Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dbc090a3c9c09d20a57afac45071e8384e25504f72fed18232a433343ad7a2a9",
+        "timestamp": 1732497476.7850926
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/01 ABERTURA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/01%20ABERTURA/01%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011757Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2f1e329252c794a30d6d3b74619e606aa83b4524a6b3d5d022c2e1ffa7bc7c6",
+        "timestamp": 1732497477.0576725
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/02 ALEGRIA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/02%20ALEGRIA/02%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011757Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b3e903ccc35e60f45ed03c01ada44a93f4f3bd115d131982e03ab65ee4be92f4",
+        "timestamp": 1732497477.3827744
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/03 CENTRAL DE CONTROLE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/03%20CENTRAL%20DE%20CONTROLE/03%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011757Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1800ee11048f13f518700fdd8d6a5d215b33fb71e75ef8304f3fd5680c2d1246",
+        "timestamp": 1732497477.6873758
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/04 TRISTEZA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/04%20TRISTEZA/04%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011757Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3bd35c5f1db69f2969945cee3bcfd6520ec1d0c5186bcc0ee71317dd95555ab9",
+        "timestamp": 1732497477.9959545
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/05 RAIVA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/05%20RAIVA/05%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011758Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8bcb8249e090a662884c4231fdcb6853af490213757db76b1c583730acdacc14",
+        "timestamp": 1732497478.2655382
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/06 PAIS DA RILEY/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/06%20PAIS%20DA%20RILEY/06%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011758Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bdcee04a36c0dcdf3c185be9b4339f175e26fe22ce5fd2844d1c6445983ba61f",
+        "timestamp": 1732497478.567136
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/07 RILEY/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/07%20RILEY/07%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011758Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f07647804bc567f0f515bc5abfc46d466677cda8ab2687ff26185f0a42b27ca0",
+        "timestamp": 1732497478.9342663
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/08 NOJINHO/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/08%20NOJINHO/08%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011759Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=20c243e8c036f01feb85f150cde59671ba73a533df427a8eb3d06fe7310bf69a",
+        "timestamp": 1732497479.253373
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/09 MEDO/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/09%20MEDO/09%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011759Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6f884a09aed49113d9d7b387ac9aa942b48906e491263038e47b3a440a4e9680",
+        "timestamp": 1732497479.5324626
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/10A CENA NA ESCOLA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/10A%20CENA%20NA%20ESCOLA/10A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011759Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c19c9deff004f77d52823495d77f90c6abec1c5fa0746c018900f33312d8c984",
+        "timestamp": 1732497479.7930512
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/10B F\u00c1BRICA DOS SONHOS/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/10B%20F%C3%81BRICA%20DOS%20SONHOS/10B%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011800Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d3c3e8d839397c8892bf3492495b8be43e70b6e513aad1d60b7bd14beb5df688",
+        "timestamp": 1732497480.1136324
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/11 VALE DO ESQUECIMENTO/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/11%20VALE%20DO%20ESQUECIMENTO/11%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011800Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=286f693ed96ea7848a6a5d5fd1bbaddb016067e65acd908779efafee113fc44d",
+        "timestamp": 1732497480.4137232
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/12 BING BONG/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/12%20BING%20BONG/12%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011800Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3728ff6369a4c77a1fc85267863938b7ac9f114f627de3e798a8e15b8cd05ad0",
+        "timestamp": 1732497480.7548733
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/13 MEM\u00d3RIAS/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/13%20MEM%C3%93RIAS/13%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011801Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=44243f632b849b5b60de72be8e120f13929b380460de09aa684e4ca50e635538",
+        "timestamp": 1732497481.068453
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/14 ILHA DA FAM\u00cdLIA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/14%20ILHA%20DA%20FAM%C3%8DLIA/14%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011801Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1a7351a16cac403c027bac785ed22ec0147eab63d24088c5dbb3104012b0b149",
+        "timestamp": 1732497481.3955226
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/15 ILHA DA AMIZADE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/15%20ILHA%20DA%20AMIZADE/15%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011801Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8eb77454be9514ae0ca8b8774f21216c17a22de1d59d3478078dd91903272acd",
+        "timestamp": 1732497481.725073
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/16 ILHA DO ROCKEY/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/16%20ILHA%20DO%20ROCKEY/16%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011802Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4ae2d10d469d2f7baa89a8b54274e3ad30b6d4591de98eb483ce6761ba147f29",
+        "timestamp": 1732497482.0841427
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/17 ILHA DA IMAGINA\u00c7\u00c3O/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/17%20ILHA%20DA%20IMAGINA%C3%87%C3%83O/FLA%20%281994%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011802Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2e16c71b4f7d5795e10d2e533aa1aa2c6c4077871d312e81a8aabbc393867da0",
+        "timestamp": 1732497482.4172552
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/18 ILHA DA HONESTIDADE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/18%20ILHA%20DA%20HONESTIDADE/18%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011802Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6837c68cc30a0705a485b4f845d9e49cb68f39efd793008bcfd04a1102c2d504",
+        "timestamp": 1732497482.6888504
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/19 ILHA DA BOBEIRA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/19%20ILHA%20DA%20BOBEIRA/19%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011802Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e2c506c26f6da4def2d1af8ad4d32d03ab666cc02c3a170b00c48c49d8f06c0f",
+        "timestamp": 1732497482.9914427
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/20 TREM DO PENSAMENTO/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/20%20TREM%20DO%20PENSAMENTO/20%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011803Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=289b6d5538dee6baf9c392dd88098fb15d05cebaf9c881a5615eeb3117c3ffe2",
+        "timestamp": 1732497483.2945647
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/21A CENA ANIVERS\u00c1RIO E RILEY ADOLESCENTE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/21A%20CENA%20ANIVERS%C3%81RIO%20E%20RILEY%20ADOLESCENTE/21A%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011803Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=39512d16915ba57871ebff4781df746473a39184ec2ddf3acfd2e13e889a7cdf",
+        "timestamp": 1732497483.5951676
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/21B TRABALHADORES/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/21B%20TRABALHADORES/21B%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011803Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b8384a13bf518846de6d161d7c219abe3d8604815de4484628a71d7b4d9bb98d",
+        "timestamp": 1732497483.9187644
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/22 CONVIC\u00c7\u00d5ES/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/22%20CONVIC%C3%87%C3%95ES/22%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011804Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d530edf1cd94742847094e9cf8998878edf347407296a68d4b7449d08a696b5",
+        "timestamp": 1732497484.2178886
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/23 PUBERDADE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/23%20PUBERDADE/23%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011804Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f8521b9ef6ca0d7e5fa250f3b9df245544184eda1d493fee737b86caff63c191",
+        "timestamp": 1732497484.500495
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/24 VERGONHA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/24%20VERGONHA/24%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011804Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f248d233afe3a96fbb3027a1ef62cb34da4de85b0a4625bca5f773f421f42959",
+        "timestamp": 1732497484.8080838
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/25 INVEJA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/25%20INVEJA/25%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011805Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1dc57cebde211a38afd863048cb6e944a423ac2515fdb24db804fa42d3697d83",
+        "timestamp": 1732497485.1432366
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/26 POLICIAIS/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/26%20POLICIAIS/26%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011805Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=66d1a2c70d868eb545d0ff920cc2c6a515dccce45bf8800120ba323fec525f54",
+        "timestamp": 1732497485.4298244
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/27 POCHETE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/27%20POCHETE/27%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011805Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0c44a69b96df30608d4d18813ddb37a33218e039f8145ce0fb82bd542dda08d6",
+        "timestamp": 1732497485.722427
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/28 VAI L\u00c1 E BRILHA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/28%20VAI%20L%C3%81%20E%20BRILHA/28%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011806Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b472c569f33417ae80602b0fb1d4291ac7a2038e28219154098b659787b96bb5",
+        "timestamp": 1732497486.0345204
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/29 T\u00c9DIO E SARCARMO/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/29%20T%C3%89DIO%20E%20SARCARMO/29%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011806Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a699b123501555921bbd1fd03b8d027b25c311e7781c07b010fccc95772d7a83",
+        "timestamp": 1732497486.30812
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/30 NOSTALGIA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/30%20NOSTALGIA/30%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011806Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3b3712fbd1d69a859d489ac980e72bec15d83819725a6e1fccea778a3ab5623e",
+        "timestamp": 1732497486.6337006
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/31 BONS TEMPOS/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/31%20BONS%20TEMPOS/31%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011806Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=91417112b173c578c3e5d469a0ad2f2c6052a8ea7936786f10ce2f219faae79e",
+        "timestamp": 1732497486.9243014
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/32 ANSIEDADE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/32%20ANSIEDADE/32%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011807Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bcf2df4a49b2aa3225fdcdda4cde7f6bc3a682bb3f42f578feca3cf230de1359",
+        "timestamp": 1732497487.271936
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/33 PROJETO NOVA RILEY/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/33%20PROJETO%20NOVA%20RILEY/33%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011807Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=587efcb310590ffe34d176bf915fad3d7bfc63341bdb5a9dba3f1a2c23476f8a",
+        "timestamp": 1732497487.5625257
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/34 CHUVA DE IDEIAS/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/34%20CHUVA%20DE%20IDEIAS/34%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011807Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=61a58cf024c63982fb9c40fa92d4ac97e4d4ad441d56d62557abccd7d6253286",
+        "timestamp": 1732497487.8571136
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/35 CACHOEIRA MEM\u00d3RIAS/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/35%20CACHOEIRA%20MEM%C3%93RIAS/35%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011808Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8bc51aff053996dd8fcea5fc26b172588bf1f6dbb8f48e1e99157514eaab2c0d",
+        "timestamp": 1732497488.1476994
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/36 CRISE DE ANSIEDADE/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/36%20CRISE%20DE%20ANSIEDADE/36%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011808Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=deaed47d0ec17529d074657c6a698bb4d8b15cafdd9f2e0d6e89e67cd8b42150",
+        "timestamp": 1732497488.4768353
+    },
+    "eventos/UNA Est\u00fadio | Divertidamente/37 GRAN FINALE - INDOLE UNIFICADA/": {
+        "url": "https://minio-minio.cbltmp.easypanel.host/balletphotos/eventos/UNA%20Est%C3%BAdio%20%7C%20Divertidamente/37%20GRAN%20FINALE%20-%20INDOLE%20UNIFICADA/37%20%281%29.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aDXSNSw86IXhpPLUlo8q%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T011809Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=15f1a934437484076d5237a5c7d3d6390a05197e2d45c13da9e657cbd3ed27f8",
+        "timestamp": 1732497489.1010318
     }
 }
