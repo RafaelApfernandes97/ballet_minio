@@ -1,0 +1,25 @@
+
+body {
+  margin: 0; /* Remove a margem padrão */
+  background: rgb(255, 255, 255);
+  background-attachment: fixed;
+  font-family: "Inter", sans-serif;
+  padding: 0; 
+  width: 100vw;
+  height: 100%;
+}
+
+.content-container {
+  max-width: 1920px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

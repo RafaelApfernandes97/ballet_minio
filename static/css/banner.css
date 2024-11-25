@@ -1,0 +1,57 @@
+.capaContainer {
+    width: 100vw;
+    margin: -84vw 0 0rem ;
+    overflow-x: hidden;
+}
+
+.mask {
+    width: 200vw;
+    height: 130vw;
+    margin-left: -50vw;
+    box-shadow: inset 6px 6px 13px 0px #000;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.content {
+    position: relative; /* Adiciona um contexto de posicionamento para o pseudo-elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100vw - 0px);
+    height: 100%;
+    margin-left: 50vw;
+    padding-top: 45%;
+    color: #fff;
+    /* Removido para ser aplicado no pseudo-elemento */
+    /* background-position: bottom;
+    background-size: 104%;
+    background-repeat: no-repeat; */
+    /* opacity: 50%; Removido, a opacidade do conteúdo deve ser 100% */
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 115%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 0;
+    background-image: url(/static/img/banner/banner1.jpg);
+    /* Variável CSS para a imagem de fundo */
+}
+
+
+.content h3 {
+    position: relative; /* Pode ser removido se não for necessário */
+    color: white; /* Ajusta a cor do texto para garantir visibilidade */
+    
+
+}

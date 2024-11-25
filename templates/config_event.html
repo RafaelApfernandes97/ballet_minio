@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Configurar Valor do Evento</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 95%;
+        }
+        .block {
+            border: 2px dashed #007bff;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #ffffff;
+            text-align: center;
+            overflow-y: auto;
+            height: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .block-header {
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #007bff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .draggable {
+            border: 1px solid #007bff;
+            background-color: #e9ecef;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .draggable:hover {
+            background-color: #d1e7ff;
+        }
+        .block.drag-over {
+            background-color: #d1e7ff;
+        }
+        .scrollable {
+            overflow-y: auto;
+            max-height: 300px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .event-checkbox {
+            width: 20px;
+            height: 20px;
+            accent-color: #007bff;
+            margin-right: 10px;
+        }
+        .event-checkbox-label {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+        .select-all {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Configurar Valor do Evento</h1>
+        <div class="row">
+            <!-- Eventos não atribuídos -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="block" id="event-list">
+                    <div class="block-header">Eventos Disponíveis</div>
+                    <div class="select-all">
+                        <input type="checkbox" id="select-all-available"> Selecionar Todos
+                    </div>
+                    <div class="scrollable">
+                        {% for event in events %}
+                        <div class="draggable" draggable="true" data-event="{{ event }}">
+                            <label class="event-checkbox-label">
+                                <input type="checkbox" class="event-checkbox"> {{ event }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blocos das Tabelas -->
+            {% for tabela, tabela_events in config.items() %}
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="block droppable" id="{{ tabela }}" data-tabela="{{ tabela }}">
+                    <div class="block-header">{{ tabela }}</div>
+                    <div class="select-all">
+                        <input type="checkbox" class="select-all-tabela" data-tabela="{{ tabela }}"> Selecionar Todos
+                    </div>
+                    <div class="scrollable">
+                        {% for event in tabela_events %}
+                        <div class="draggable" draggable="true" data-event="{{ event }}">
+                            <label class="event-checkbox-label">
+                                <input type="checkbox" class="event-checkbox"> {{ event }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        const draggables = document.querySelectorAll('.draggable');
+        const droppables = document.querySelectorAll('.droppable');
+        const eventList = document.getElementById('event-list');
+        const selectAllCheckboxes = document.querySelectorAll('.select-all input[type="checkbox"]');
+
+        // Função para salvar configurações automaticamente
+        function saveConfig(tabelaOrigem, tabelaDestino, events) {
+            fetch('/config-event', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    tabela_origem: tabelaOrigem,
+                    tabela_destino: tabelaDestino,
+                    eventos: Array.from(events),
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data.message || 'Configuração salva.');
+            })
+            .catch(err => console.error('Erro ao salvar configuração:', err));
+        }
+
+        // Selecionar todos os eventos de uma tabela
+        selectAllCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+                const tabela = this.dataset.tabela;
+                const block = tabela ? document.getElementById(tabela) : eventList;
+                const checkboxes = block.querySelectorAll('.event-checkbox');
+                checkboxes.forEach(cb => cb.checked = this.checked);
+            });
+        });
+
+        // Selecionar o checkbox ao clicar no item
+        draggables.forEach(draggable => {
+            draggable.addEventListener('click', () => {
+                const checkbox = draggable.querySelector('.event-checkbox');
+                checkbox.checked = !checkbox.checked;
+            });
+
+            draggable.addEventListener('dragstart', () => {
+                draggable.classList.add('dragging');
+            });
+
+            draggable.addEventListener('dragend', () => {
+                draggable.classList.remove('dragging');
+            });
+        });
+
+        droppables.forEach(droppable => {
+            droppable.addEventListener('dragover', e => {
+                e.preventDefault();
+                droppable.classList.add('drag-over');
+            });
+
+            droppable.addEventListener('dragleave', () => {
+                droppable.classList.remove('drag-over');
+            });
+
+            droppable.addEventListener('drop', e => {
+                e.preventDefault();
+                droppable.classList.remove('drag-over');
+
+                const selectedCheckboxes = document.querySelectorAll('.event-checkbox:checked');
+                const tabelaDestino = droppable.dataset.tabela;
+                const tabelaOrigem = selectedCheckboxes[0]?.closest('.block').dataset.tabela || 'event-list';
+
+                const movedEvents = [];
+
+                selectedCheckboxes.forEach(checkbox => {
+                    const draggable = checkbox.closest('.draggable');
+                    droppable.querySelector('.scrollable').appendChild(draggable);
+                    movedEvents.push(draggable.dataset.event);
+                    checkbox.checked = false;
+                });
+
+                saveConfig(tabelaOrigem, tabelaDestino, movedEvents);
+            });
+        });
+
+        // Remoção ao arrastar de volta para o bloco de eventos disponíveis
+        eventList.addEventListener('dragover', e => {
+            e.preventDefault();
+            eventList.classList.add('drag-over');
+        });
+
+        eventList.addEventListener('dragleave', () => {
+            eventList.classList.remove('drag-over');
+        });
+
+        eventList.addEventListener('drop', e => {
+            e.preventDefault();
+            eventList.classList.remove('drag-over');
+
+            const selectedCheckboxes = document.querySelectorAll('.event-checkbox:checked');
+            const tabelaOrigem = selectedCheckboxes[0]?.closest('.block').dataset.tabela || 'event-list';
+
+            const movedEvents = [];
+
+            selectedCheckboxes.forEach(checkbox => {
+                const draggable = checkbox.closest('.draggable');
+                eventList.querySelector('.scrollable').appendChild(draggable);
+                movedEvents.push(draggable.dataset.event);
+                checkbox.checked = false;
+            });
+
+            saveConfig(tabelaOrigem, 'event-list', movedEvents);
+        });
+
+    </script>
+</body>
+</html>
