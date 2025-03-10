@@ -227,6 +227,14 @@ function updateTotalValue() {
         }
     } else if (valueType === 'Tabela 15FX') {
         pricePerImage = 15.00; // Preço fixo
+    } else if (valueType === 'Tabela 30') {
+        if (imageCount >= 1 && imageCount <= 9) {
+            pricePerImage = 30.00;
+        } else if (imageCount >= 10 && imageCount <= 19) {
+            pricePerImage = 27.50;
+        } else if (imageCount >= 20) {
+            pricePerImage = 25.00;
+        }
     }
 
     // Garante que o preço por imagem é válido antes de calcular o total
