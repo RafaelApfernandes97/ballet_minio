@@ -206,8 +206,8 @@ function updateTotalValue() {
 
     // Caso não encontre uma tabela, usa um valor padrão
     if (!valueType) {
-        console.warn(`Evento ${eventFolderName} não associado a nenhuma tabela. Usando Tabela 20 como padrão.`);
-        valueType = 'Tabela 20';
+        console.warn(`Evento ${eventFolderName} não associado a nenhuma tabela. Usando Tabela 25 como padrão.`);
+        valueType = 'Tabela 25';
     }
 
     console.log('Calculando valor para:', eventFolderName, 'com tipo de valor:', valueType);
@@ -227,15 +227,6 @@ function updateTotalValue() {
         }
     } else if (valueType === 'Tabela 15FX') {
         pricePerImage = 15.00; // Preço fixo
-    } else if (valueType === 'Tabela 20') {
-        // Preços variáveis para Tabela 20
-        if (imageCount >= 1 && imageCount <= 9) {
-            pricePerImage = 20.00;
-        } else if (imageCount >= 10 && imageCount <= 19) {
-            pricePerImage = 17.50;
-        } else if (imageCount >= 20) {
-            pricePerImage = 15.00;
-        }
     }
 
     // Garante que o preço por imagem é válido antes de calcular o total
