@@ -256,7 +256,7 @@ def config_event():
     except (FileNotFoundError, json.JSONDecodeError):
         # Renomeie as tabelas ao criar o dicionário
         event_value_config = {
-            "Tabela 20": [],
+            "Tabela 30": [],
             "Tabela 25": [],
             "Tabela 15FX": [],
             "Tabela 30FX": [],
@@ -292,7 +292,7 @@ def load_event_value_config():
     except (FileNotFoundError, json.JSONDecodeError) as e:
         logger.error(f"Erro ao carregar o arquivo JSON: {e}. Criando um novo arquivo com valores padrão.")
         event_value_config = {
-            "Tabela 20": [],
+            "Tabela 30": [],
             "Tabela 25": [],
             "Tabela 15FX": [],
             "Tabela 30FX": [],
